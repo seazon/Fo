@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="entries_list_setting_order">
+		<item>名称</item>
+		<item>类型</item>
+		<item>大小</item>
+		<item>修改时间</item>
+	</string-array>
+	<string-array name="entries_list_setting_view">
+		<item>列表</item>
+		<item>图标</item>
+	</string-array>
+	<string-array name="entries_list_setting_ui_theme">
+		<item>明亮</item>
+		<item>黑暗</item>
+	</string-array>
+	<string-array name="entries_list_setting_ui_color">
+		<item>绿色</item>
+		<item>蓝色</item>
+		<item>橙色</item>
+		<item>粉色</item>
+		<item>红色</item>
+		<item>紫色</item>
+	</string-array>
+</resources>

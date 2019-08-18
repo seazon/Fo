@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="entries_list_setting_order">
+		<item>Nazwa</item>
+		<item>Typ</item>
+		<item>Rozmiar</item>
+		<item>Data modyfikacji</item>
+	</string-array>
+	<string-array name="entries_list_setting_view">
+		<item>Lista</item>
+		<item>Ikony</item>
+	</string-array>
+	<string-array name="entries_list_setting_ui_theme">
+		<item>Jasny</item>
+		<item>Ciemny</item>
+	</string-array>
+	<string-array name="entries_list_setting_ui_color">
+		<item>Zielony</item>
+		<item>Niebieski</item>
+		<item>Pomarańczowy</item>
+		<item>Różowy</item>
+		<item>Czerwony</item>
+		<item>Fioletowy</item>
+	</string-array>
+</resources>

@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fo</string>
+    <string name="no_files">空フォルダ</string>
+    <string name="permission_denied">権限がない</string>
+    
+	<string name="common_confirm">確認</string>
+	<string name="common_save">保存</string>
+	<string name="common_new">新規作成</string>
+	<string name="common_add">添加</string>
+	<string name="common_close">閉じる</string>
+	<string name="common_cancel">取消</string>
+	<string name="common_search">検索</string>
+	<string name="common_back">戻す</string>
+	
+	<string name="operator">オペレーティング</string>
+	<string name="operator_select_all">選択する</string>
+	<string name="operator_paste">貼り付け</string>
+	<string name="operator_new_folder">新しいフォルダを作成</string>
+	<string name="operator_copy">コピー</string>
+	<string name="operator_cut">切り取り</string>
+	<string name="operator_delete">削除</string>
+	
+	<string name="operator_open_with">開く…</string>
+	<string name="operator_properties">プロパティ</string>
+	<string name="operator_rename">名前を変更</string>
+	<string name="operator_send_by_bluetooth">ブルートゥースで発送</string>
+	<string name="operator_send_by">発送 …</string>
+	<string name="operator_set_home">主目録に設定</string>
+	<string name="operator_file_no_exist">File not exists</string>
+	<string name="operator_add_favorites">お気に入りに追加</string>
+	<string name="operator_add_favorites_successful">お気に入りに追加は成功しました</string>
+	<string name="operator_add_favorites_failed">お気に入りに追加は失敗しました</string>
+	<string name="operator_add_favorites_failed_more_than_max">収蔵数量最多は%s個</string>
+	<string name="operator_del_favorites_confirm">お気に入りから削除 %s？</string>
+	<string name="operator_del_favorites_successful">お気に入りから削除は成功しました</string>
+	<string name="operator_del_favorites_failed">お気に入りから削除は失敗しました</string>
+	<string name="operator_zip">圧縮</string>
+	<string name="operator_add_shortcut">ショートカットを追加</string>
+	<string name="operator_add_shortcut_successful">ショートカット %s の成功を追加するには</string>
+	<string name="operator_add_shortcut_failed">%s が失敗するアドオンのショートカット</string>
+	
+	<string name="hint_invalid_path">パスが非合法</string>
+	<string name="hint_set_home_successful">現在の主目録は%s</string>
+	<string name="hint_set_home_failed_1">このファイル主目録に設定できません</string>
+	<string name="hint_set_home_failed_2">フォルダが存在しません</string>
+	<string name="send_failed">ファイルの送信に失敗しました</string>
+	<string name="send_failed_can_not_send_folder">フォルダを発送できません</string>
+	<string name="hint_send_failed_2">ブルートゥースは見つけません</string>
+	
+	<string name="copy_files">ファイルをコピー …</string>
+	<string name="copy_files_detail">コピーしています %s</string>
+	<string name="copy_complete">コピーは完成しました</string>
+	<string name="copy_failed">コピーに失敗しました</string>
+	
+	<string name="move_files">ファイルを移動 …</string>
+	<string name="move_files_detail">移動しています %s</string>
+	<string name="move_complete">移動は完成しました</string>
+	<string name="move_failed">移動に失敗しました</string>
+	
+	<string name="delete_files">ファイルを削除 …</string>
+	<string name="delete_files_single_confirm"> %sを削除しますか？</string>
+	<string name="delete_files_multi_confirm">%s個ファイルを削除しますか？</string>
+	<string name="delete_files_detail">削除しています %s</string>
+	<string name="delete_complete">削除は完成しました</string>
+	<string name="delete_failed">削除失敗</string>
+	
+	<string name="new_folder_title">ファイルダの名称を入力してください</string>
+	<string name="new_folder_default_name">新しいフォルダ を作成</string>
+	<string name="new_folder_successful">新しいフォルダ を作成は成功しました</string>
+	<string name="new_folder_failed">新しいフォルダを作成は失敗しました</string>
+	
+	<string name="rename_title">新しい名称を入力してください</string>
+	<string name="rename_successful">名前の変更は成功しました</string>
+	<string name="rename_failed">名前の変更は失敗しました</string>
+
+	<string name="side_main_storage_size">ストレージ: %s</string>
+	<string name="side_path_local">ローカルパス</string>
+	<string name="side_path_local_home">主目録</string>
+	<string name="side_path_local_sdcard">SDカード</string>
+	<string name="side_path_local_dcim">DCIM</string>
+	<string name="side_path_local_download">ダウンロード</string>
+	<string name="side_path_local_movies">作品</string>
+	<string name="side_path_local_music">音楽</string>
+	<string name="side_path_local_pictures">写真</string>
+
+	<string name="side_others">その他</string>
+	<string name="side_others_view">ビュー</string>
+	<string name="side_others_order">ソート</string>
+	<string name="side_others_preferences">設置</string>
+	<string name="side_others_exit">終了</string>
+	
+	<string name="select_mode_single">ラジオ</string>
+	<string name="select_mode_multiple">複数選択</string>
+	
+	<string name="select_description">%s個選びました</string>
+	<string name="select_description_copy">コピー %s個項目へ  …</string>
+	<string name="select_description_cut">切り取り %s個項目へ  …</string>
+	
+	<string name="search_searching">ファイルを検索 …</string>
+	<string name="search_result_title">検索結果</string>
+	<string name="search_result_too_many_results">検索結果は多い，%s条結果が見せつけますだけ</string>
+	<string name="search_result_no_results">何も見つかりませんでした</string>
+	
+	<string name="zip_open">開く …</string>
+	<string name="zip_unzip">解凍</string>
+	<string name="zip_unziping">解凍しています …</string>
+	<string name="zip_unzip_successful">解凍は成功しました</string>
+	<string name="zip_unzip_failed">解凍は失敗しました</string>
+	<string name="zip_zip">圧縮</string>
+	<string name="zip_ziping">圧縮しています …</string>
+	<string name="zip_zip_successful">圧縮は成功しました</string>
+	<string name="zip_zip_failed">圧縮は失敗しました</string>
+	
+	<string name="properties_general_path">位置</string>
+	<string name="properties_general_include">包含</string>
+	<string name="properties_general_include_item">%s個項目</string>
+	<string name="properties_general_include_file">%s個ファイル</string>
+	<string name="properties_general_include_folder">%s個ファイルダ</string>
+	<string name="properties_general_size">大小</string>
+	<string name="properties_general_permission">権限</string>
+	<string name="properties_general_last_modified">時間を改正</string>
+	<string name="properties_app_package_name">パッケージの名前</string>
+	<string name="properties_app_minimum_version_required">バージョン要求</string>
+	<string name="properties_app_version_code">バージョン番号</string>
+	<string name="properties_app_version_name">バージョンの名前</string>
+	<string name="properties_image_resolution">解像度</string>
+	
+	<string name="setting_view">ビューを設定</string>
+	<string name="setting_view_show_hidden">隠しファイルを表示する</string>
+	<string name="setting_view_show_hidden_tip">隠しファイルを表示する（点始めるのファイル）</string>
+	<string name="setting_view_show_thumbnail">サムネイルを表示する</string>
+	<string name="setting_view_show_thumbnail_tip">サムネイルでアイコンを取り替える</string>
+	<string name="setting_view_clear_cache">キャッシュメモリーを取り除く</string>
+	<string name="setting_view_clear_cache_tip">キャッシュメモリデータを取り除く（サムネイル等）</string>
+	<string name="setting_view_clear_cache_confirm">キャッシュメモリーを取り除しますか？</string>
+	<string name="setting_view_clear_cache_ing">キャッシュメモリーを取り除しています …</string>
+	<string name="setting_view_order">ソート</string>
+	<string name="setting_view_order2_asc">順序</string>
+	<string name="setting_view_order2_desc">逆の順序</string>
+	<string name="setting_view_view">ビュー</string>
+		
+	<string name="setting_ui_theme">テーマ</string>
+	<string name="setting_ui_theme_tip">ユーザーインターフェイスの科目</string>
+	<string name="setting_ui_color">色</string>
+	<string name="setting_ui_color_tip">ユーザー·インターフェースの主な色</string>
+	
+	<string name="setting_preferences">特に愛好設定</string>
+	<string name="setting_preferences_home">主目録</string>
+	<string name="setting_preferences_useen">言語</string>
+	<string name="setting_preferences_useen_on_tip">英語</string>
+	<string name="setting_preferences_useen_off_tip">システムのデフォルト言語</string>
+	
+	<string name="setting_about">について</string>
+	
+	<string name="setting_about_feedback">Feedback</string>
+	
+</resources>

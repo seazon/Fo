@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fo</string>
+    <string name="no_files">Папка пуста</string>
+    <string name="permission_denied">Доступ запрещён</string>
+    
+	<string name="common_confirm">Подтверждение</string>
+	<string name="common_save">Сохранить</string>
+	<string name="common_new">Новый</string>
+	<string name="common_add">Добавить</string>
+	<string name="common_close">Закрыть</string>
+	<string name="common_cancel">Отмена</string>
+	<string name="common_search">Поиск</string>
+	<string name="common_back">Назад</string>
+	
+	<string name="operator">Действия</string>
+	<string name="operator_select_all">Выбрать всё</string>
+	<string name="operator_paste">Вставить</string>
+	<string name="operator_new_folder">Новая папка</string>
+	<string name="operator_copy">Копировать</string>
+	<string name="operator_cut">Вырезать</string>
+	<string name="operator_delete">Удалить</string>
+	
+	<string name="operator_open_with">Открыть …</string>
+	<string name="operator_properties">Свойства</string>
+	<string name="operator_rename">Имя</string>
+	<string name="operator_send_by_bluetooth">По Bluetooth</string>
+	<string name="operator_send_by">Отправить …</string>
+	<string name="operator_set_home">Домашняя!</string>
+	<string name="operator_file_no_exist">Объект не найден</string>
+	<string name="operator_add_favorites">Закладка</string>
+	<string name="operator_add_favorites_successful">Закладка успешно создана</string>
+	<string name="operator_add_favorites_failed">Не удалось создать закладку</string>
+	<string name="operator_add_favorites_failed_more_than_max">Предусмотрено лишь %s закладок</string>
+	<string name="operator_del_favorites_confirm">Удалить закладку %s?</string>
+	<string name="operator_del_favorites_successful">Закладка успешно удалена</string>
+	<string name="operator_del_favorites_failed">Не удалось удалить закладку</string>
+	<string name="operator_zip">Сжать</string>
+	<string name="operator_add_shortcut">Ярлык</string>
+	<string name="operator_add_shortcut_successful">Ярлык %s добавлен</string>
+	<string name="operator_add_shortcut_failed">Сбой создания ярлыка %s</string>
+	
+	<string name="hint_invalid_path">Неверный путь</string>
+	<string name="hint_set_home_successful">%s назначена Домашней папкой</string>
+	<string name="hint_set_home_failed_1">Файл не может быть Домашней папкой</string>
+	<string name="hint_set_home_failed_2">Домашняя папка не найдена</string>
+	<string name="send_failed">Сбой отправки файла(-ов)</string>
+	<string name="send_failed_can_not_send_folder">Отправка папки не поддерживается</string>
+	<string name="hint_send_failed_2">Целевое устройство не найдено</string>
+	
+	<string name="copy_files">Копирование …</string>
+	<string name="copy_files_detail">Копирование %s</string>
+	<string name="copy_complete">Копирование завершено</string>
+	<string name="copy_failed">Сбой копирования</string>
+	
+	<string name="move_files">Перемещение …</string>
+	<string name="move_files_detail">Перемещение %s</string>
+	<string name="move_complete">Перемещение завершено</string>
+	<string name="move_failed">Сбой перемещения</string>
+	
+	<string name="delete_files">Удаление …</string>
+	<string name="delete_files_single_confirm">Действительно удалить %s?</string>
+	<string name="delete_files_multi_confirm">Действительно удалить %s файлов?</string>
+	<string name="delete_files_detail">Удаление %s</string>
+	<string name="delete_complete">Удаление завершено</string>
+	<string name="delete_failed">Сбой удаления</string>
+	
+	<string name="new_folder_title">Введите имя папки</string>
+	<string name="new_folder_default_name">Папка</string>
+	<string name="new_folder_successful">Папка успешно создана</string>
+	<string name="new_folder_failed">Не удалось создать папку</string>
+	
+	<string name="rename_title">Введите новое имя</string>
+	<string name="rename_successful">Имя успешно изменено</string>
+	<string name="rename_failed">Не удалось изменить имя</string>
+
+	<string name="side_main_storage_size">Память: %s</string>
+	<string name="side_path_local">Закладки</string>
+	<string name="side_path_local_home">Домашняя</string>
+	<string name="side_path_local_sdcard">Карта памяти</string>
+	<string name="side_path_local_dcim">DCIM</string>
+	<string name="side_path_local_download">Загрузки</string>
+	<string name="side_path_local_movies">Кино</string>
+	<string name="side_path_local_music">Музыка</string>
+	<string name="side_path_local_pictures">Картинки</string>
+	
+	<string name="side_others">Прочее</string>
+	<string name="side_others_view">Вид</string>
+	<string name="side_others_order">Сортировка</string>
+	<string name="side_others_preferences">Настройки</string>
+	<string name="side_others_exit">Выход</string>
+	
+	<string name="select_mode_single">Обычный</string>
+	<string name="select_mode_multiple">Мультивыбор</string>
+	
+	<string name="select_description">%s выбрано</string>
+	<string name="select_description_copy">Копировать %s объект(ов) в …</string>
+	<string name="select_description_cut">Вырезать %s объект(ов) в …</string>
+	
+	<string name="search_searching">Поиск …</string>
+	<string name="search_result_title">Результаты поиска</string>
+	<string name="search_result_too_many_results">Слишком много результатов, Показаны первые %s</string>
+	<string name="search_result_no_results">Совпадения не найдены</string>
+    
+	<string name="zip_open">Открыть …</string>
+	<string name="zip_unzip">Распаковать</string>
+	<string name="zip_unziping">Распаковка …</string>
+	<string name="zip_unzip_successful">Распаковка завершена</string>
+	<string name="zip_unzip_failed">Не удалось выполнить распаковку</string>
+	<string name="zip_zip">Сжать</string>
+	<string name="zip_ziping">Сжатие …</string>
+	<string name="zip_zip_successful">Сжатие успешно завершено</string>
+	<string name="zip_zip_failed">Не удалось выполнить сжатие</string>
+	
+	<string name="properties_general_path">Путь</string>
+	<string name="properties_general_include">Содержимое</string>
+	<string name="properties_general_include_item">Объекты %s шт.</string>
+	<string name="properties_general_include_file">Файлы %s шт.</string>
+	<string name="properties_general_include_folder">Папки %s шт.</string>
+	<string name="properties_general_size">Размер</string>
+	<string name="properties_general_permission">Разрешения</string>
+	<string name="properties_general_last_modified">Изменён</string>
+	<string name="properties_app_package_name">Java-имя</string>
+	<string name="properties_app_minimum_version_required">Мин. версия ОС</string>
+	<string name="properties_app_version_code">Код версии</string>
+	<string name="properties_app_version_name">Имя версии</string>
+	<string name="properties_image_resolution">Разрешение</string>
+	
+	<string name="setting_view">Просмотр</string>
+	<string name="setting_view_show_hidden">Скрытые</string>
+	<string name="setting_view_show_hidden_tip">Показать объекты, имя которых начинается с точки</string>
+	<string name="setting_view_show_thumbnail">Миниатюры</string>
+	<string name="setting_view_show_thumbnail_tip">Показать миниатюры вместо значков</string>
+	<string name="setting_view_clear_cache">Очистить кэш</string>
+	<string name="setting_view_clear_cache_tip">Удалить миниатюры и т. п.</string>
+	<string name="setting_view_clear_cache_confirm">Очистить кэш?</string>
+	<string name="setting_view_clear_cache_ing">Выполняется очистка …</string>
+	<string name="setting_view_order">Сортировка</string>
+	<string name="setting_view_order2_asc">возрастание</string>
+	<string name="setting_view_order2_desc">убывание</string>
+	<string name="setting_view_view">Вид</string>
+		
+	<string name="setting_ui_theme">Тема</string>
+	<string name="setting_ui_theme_tip">Тема оформления интерфейса</string>
+	<string name="setting_ui_color">Цвет</string>
+	<string name="setting_ui_color_tip">Основной цвет интерфейса</string>
+	
+	<string name="setting_preferences">Общие</string>
+	<string name="setting_preferences_home">Домашняя папка</string>
+	<string name="setting_preferences_useen">Язык</string>
+	<string name="setting_preferences_useen_on_tip">Английский</string>
+	<string name="setting_preferences_useen_off_tip">Системные установки</string>
+	
+	<string name="setting_about">О программе</string>
+	
+	<string name="setting_about_feedback">Feedback</string>
+
+</resources>

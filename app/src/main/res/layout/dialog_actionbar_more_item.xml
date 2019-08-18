@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+   	android:background="@color/dark_bg"
+    >
+
+    <ImageView
+        android:id="@+id/actionIconView"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_menu_paste"
+        android:padding="4dp"
+        />
+
+    <TextView
+        android:id="@+id/actionNameView"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:paddingRight="8dp"
+        android:gravity="center_vertical"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="这是一个ArticleTitle的标题的例子的例子的例子的例子的例子"
+        android:textSize="18sp"
+        android:textColor="@color/dark_text_primary"
+        />
+
+</LinearLayout>

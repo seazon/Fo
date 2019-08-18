@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fo</string>
+    <string name="no_files">Boş Dosya</string>
+    <string name="permission_denied">Erişim Engellendi</string>
+    
+	<string name="common_confirm">Onayla</string>
+	<string name="common_save">Kaydet</string>
+	<string name="common_new">Yeni</string>
+	<string name="common_add">Ekle</string>
+	<string name="common_close">Kapat</string>
+	<string name="common_cancel">İptal</string>
+	<string name="common_search">Ara</string>
+	<string name="common_back">Geri</string>
+	
+	<string name="operator">Operatör</string>
+	<string name="operator_select_all">Tümünü Seç</string>
+	<string name="operator_paste">Yapıştır</string>
+	<string name="operator_new_folder">Yeni Dosya</string>
+	<string name="operator_copy">Kopyala</string>
+	<string name="operator_cut">Kes</string>
+	<string name="operator_delete">Sil</string>
+	
+	<string name="operator_open_with">Birlikte Aç …</string>
+	<string name="operator_properties">Özellikler</string>
+	<string name="operator_rename">Yeniden Adlandır</string>
+	<string name="operator_send_by_bluetooth">Bluetooth ile Gönder</string>
+	<string name="operator_send_by">… ile Gönder</string>
+	<string name="operator_set_home">Ana Sayfa Olarak Ayarla</string>
+	<string name="operator_file_no_exist">Dosya Bulunamadı</string>
+	<string name="operator_add_favorites">Favorilere Ekle</string>
+	<string name="operator_add_favorites_successful">Favorilere Ekleme Başarılı</string>
+	<string name="operator_add_favorites_failed">Favorilere Ekleme Başarısız</string>
+	<string name="operator_add_favorites_failed_more_than_max">%s fazla olamaz</string>
+	<string name="operator_del_favorites_confirm">%s Favorilerden kaldırılsın mı?</string>
+	<string name="operator_del_favorites_successful">Favorilerden kaldırma başarılı</string>
+	<string name="operator_del_favorites_failed">Favorilerden kaldırma başarısız</string>
+	<string name="operator_zip">Sıkıştır</string>
+	<string name="operator_add_shortcut">Add shortcut</string>
+	<string name="operator_add_shortcut_successful">Add shortcut %s successful</string>
+	<string name="operator_add_shortcut_failed">Add shortcut %s failed</string>
+	
+	<string name="hint_invalid_path">Geçersiz yol</string>
+	<string name="hint_set_home_successful">Şimdiki Ana Sayfa %s</string>
+	<string name="hint_set_home_failed_1">Ana Sayfa olarak ayarlanamadı</string>
+	<string name="hint_set_home_failed_2">Dizin mevcut değil</string>
+	<string name="send_failed">Dosya(ların) gönderimi başarısız</string>
+	<string name="send_failed_can_not_send_folder">Klasör(ler) gönderemezsin</string>
+	<string name="hint_send_failed_2">Bluetooth aktif değil</string>
+	
+	<string name="copy_files">Dosyalar kopyalanıyor …</string>
+	<string name="copy_files_detail">%s kopyalanıyor</string>
+	<string name="copy_complete">Kopyalama tamamlandı</string>
+	<string name="copy_failed">Kopyalama başarısız</string>
+	
+	<string name="move_files">Dosyalar taşınıyor …</string>
+	<string name="move_files_detail">%s taşınıyor</string>
+	<string name="move_complete">Taşıma tamamlandı</string>
+	<string name="move_failed">Taşıma başarısız</string>
+	
+	<string name="delete_files">Dosyalar siliniyor …</string>
+	<string name="delete_files_single_confirm">%s \'i silmek istediğinize emin misiniz?</string>
+	<string name="delete_files_multi_confirm">%s dosyalarını silmek istediğinize emin misiniz?</string>
+	<string name="delete_files_detail">%s siliniyor</string>
+	<string name="delete_complete">Silme tamamlandı</string>
+	<string name="delete_failed">Silme başarısız</string>
+	
+	<string name="new_folder_title">Klasör adını yaz</string>
+	<string name="new_folder_default_name">Yeni Klasör</string>
+	<string name="new_folder_successful">Yeni klasör oluşturuldu</string>
+	<string name="new_folder_failed">Yeni klasör oluşturulamadı</string>
+	
+	<string name="rename_title">Yeniden adlandır</string>
+	<string name="rename_successful">Yeniden adlandırma başarılı</string>
+	<string name="rename_failed">Yeniden adlandırma başarısız</string>
+
+	<string name="side_main_storage_size">Storage: %s</string>
+	<string name="side_path_local">Favoriler</string>
+	<string name="side_path_local_home">Ana Sayfa</string>
+	<string name="side_path_local_sdcard">SD kart</string>
+	<string name="side_path_local_dcim">DCIM</string>
+	<string name="side_path_local_download">İndirilenler</string>
+	<string name="side_path_local_movies">Filmler</string>
+	<string name="side_path_local_music">Müzik</string>
+	<string name="side_path_local_pictures">Resimleri</string>
+	
+	<string name="side_others">Diğerleri</string>
+	<string name="side_others_view">Görünüm</string>
+	<string name="side_others_order">Sırala</string>
+	<string name="side_others_preferences">Tercihler</string>
+	<string name="side_others_exit">Çıkış</string>
+	
+	<string name="select_mode_single">Tek</string>
+	<string name="select_mode_multiple">Çoklu</string>
+	
+	<string name="select_description">%s seçildi</string>
+	<string name="select_description_copy">%s \'i kopyala …</string>
+	<string name="select_description_cut">%s \'i kes …</string>
+	
+	<string name="search_searching">Aranıyor …</string>
+	<string name="search_result_title">Arama Sonuçları</string>
+	<string name="search_result_too_many_results">Çok fazla sonuç var, Öncelikli olarak %s gösteriliyor</string>
+	<string name="search_result_no_results">Sonuç yok</string>
+	
+	<string name="zip_open">Aç …</string>
+	<string name="zip_unzip">Dışa Aktar</string>
+	<string name="zip_unziping">Dışa aktarılıyor …</string>
+	<string name="zip_unzip_successful">Dışa aktarma başarılı</string>
+	<string name="zip_unzip_failed">Dışa aktarma başarısız</string>
+	<string name="zip_zip">Sıkıştır</string>
+	<string name="zip_ziping">Sıkıştırılıyor …</string>
+	<string name="zip_zip_successful">Sıkıştırma başarılı</string>
+	<string name="zip_zip_failed">Sıkıştırma başarısız</string>
+    
+	<string name="properties_general_path">Yol</string>
+	<string name="properties_general_include">İçerik</string>
+	<string name="properties_general_include_item">%s nesne(ler)</string>
+	<string name="properties_general_include_file">%s dosya(lar)</string>
+	<string name="properties_general_include_folder">%s klasör(ler)</string>
+	<string name="properties_general_size">Boyut</string>
+	<string name="properties_general_permission">İzin</string>
+	<string name="properties_general_last_modified">Son düzenleme</string>
+	<string name="properties_app_package_name">Paket adı</string>
+	<string name="properties_app_minimum_version_required">En düşük versiyon gereklidir</string>
+	<string name="properties_app_version_code">Versiyon kodu</string>
+	<string name="properties_app_version_name">Versiyon adı</string>
+	<string name="properties_image_resolution">Çözünürlük</string>
+	
+	<string name="setting_view">Ayarları görüntüle</string>
+	<string name="setting_view_show_hidden">Gizli dosyaları görüntüle</string>
+	<string name="setting_view_show_hidden_tip">Nokta ile başlayan gizli dosyaları görüntüle</string>
+	<string name="setting_view_show_thumbnail">Küçükresimleri görüntüle</string>
+	<string name="setting_view_show_thumbnail_tip">Küçükresimleri ikon olarak kullan</string>
+	<string name="setting_view_clear_cache">Önbelleği temizle</string>
+	<string name="setting_view_clear_cache_tip">Önbellek verilerini temizle(resim önizlemeleri, etc.)</string>
+	<string name="setting_view_clear_cache_confirm">Önbelleği temizle?</string>
+	<string name="setting_view_clear_cache_ing">Önbellek temizleniyor …</string>
+	<string name="setting_view_order">Sırala</string>
+	<string name="setting_view_order2_asc">ASC</string>
+	<string name="setting_view_order2_desc">DESC</string>
+	<string name="setting_view_view">Görünüm</string>
+	
+	<string name="setting_ui_theme">Tema</string>
+	<string name="setting_ui_theme_tip">Kullanıcı arayüzü teması</string>
+	<string name="setting_ui_color">Renk</string>
+	<string name="setting_ui_color_tip">Kullanıcı arayüzü ana rengi</string>
+	
+	<string name="setting_preferences">Tercih ayarları</string>
+	<string name="setting_preferences_home">Ev dizini</string>
+	<string name="setting_preferences_useen">Language</string>
+	<string name="setting_preferences_useen_on_tip">English</string>
+	<string name="setting_preferences_useen_off_tip">System default language</string>
+	
+	<string name="setting_about">Hakkında</string>
+	
+	<string name="setting_about_feedback">Feedback</string>
+	
+</resources>

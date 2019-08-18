@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="entries_list_setting_order">
+    <item>שם</item>
+    <item>סוג</item>
+    <item>גודל</item>
+    <item>תאריך שינוי</item>
+  </string-array>
+  <string-array name="entries_list_setting_view">
+    <item>רשימה</item>
+    <item>אייקונים</item>
+  </string-array>
+  <string-array name="entries_list_setting_ui_theme">
+    <item>בהיר</item>
+    <item>כהה</item>
+  </string-array>
+  <string-array name="entries_list_setting_ui_color">
+    <item>ירוק</item>
+    <item>כחול</item>
+    <item>כתום</item>
+    <item>ורוד</item>
+    <item>אדום</item>
+    <item>סגול</item>
+  </string-array>
+</resources>

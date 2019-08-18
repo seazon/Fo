@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fo</string>
+    <string name="no_files">Üres mappa</string>
+    <string name="permission_denied">Engedély megtagadva</string>
+    
+	<string name="common_confirm">Megerősít</string>
+	<string name="common_save">Mentés</string>
+	<string name="common_new">Új</string>
+	<string name="common_add">Hozzáad</string>
+	<string name="common_close">Bezár</string>
+	<string name="common_cancel">Visszavon</string>
+	<string name="common_search">Keres</string>
+	<string name="common_back">Vissza</string>
+	
+	<string name="operator">Funkciók</string>
+	<string name="operator_select_all">Mindet kijelöl</string>
+	<string name="operator_paste">Beilleszt</string>
+	<string name="operator_new_folder">Új mappa</string>
+	<string name="operator_copy">Másol</string>
+	<string name="operator_cut">Kivág</string>
+	<string name="operator_delete">Töröl</string>
+	
+	<string name="operator_open_with">Open with …</string>
+	<string name="operator_properties">Tulajdonságok</string>
+	<string name="operator_rename">Átnevez</string>
+	<string name="operator_send_by_bluetooth">Küldés bluetooth-al</string>
+	<string name="operator_send_by">Küldés …</string>
+	<string name="operator_set_home">Beállít kezdőlapnak</string>
+	<string name="operator_file_no_exist">Fájl nem létezik</string>
+	<string name="operator_add_favorites">Kedvencekhez ad</string>
+	<string name="operator_add_favorites_successful">Hozzáadás sikeres</string>
+	<string name="operator_add_favorites_failed">Hozzáadás sikertelen</string>
+	<string name="operator_add_favorites_failed_more_than_max">Max %s kedvenc engedélyezett</string>
+	<string name="operator_del_favorites_confirm">%s eltávolítása a kedvencekből?</string>
+	<string name="operator_del_favorites_successful">Kedvenc eltávolítása sikeres</string>
+	<string name="operator_del_favorites_failed">Kedvenc eltávolítása sikertelen</string>
+	<string name="operator_zip">Becsomagolás</string>
+	<string name="operator_add_shortcut">Add shortcut</string>
+	<string name="operator_add_shortcut_successful">Add shortcut %s successful</string>
+	<string name="operator_add_shortcut_failed">Add shortcut %s failed</string>
+	
+	<string name="hint_invalid_path">Érvénytelen útvonal</string>
+	<string name="hint_set_home_successful">Kezdőlap mostantól: %s</string>
+	<string name="hint_set_home_failed_1">Nem állíthatsz fájlt kezdőlapnak</string>
+	<string name="hint_set_home_failed_2">A könyvtár nem létezik</string>
+	<string name="send_failed">Fájl(ok) küldése sikertelen</string>
+	<string name="send_failed_can_not_send_folder">Nem küldhetsz könyvtárat</string>
+	<string name="hint_send_failed_2">Bluetooth nem aktív</string>
+	
+	<string name="copy_files">Fájlok másolása …</string>
+	<string name="copy_files_detail">Másol %s</string>
+	<string name="copy_complete">Másolás kész</string>
+	<string name="copy_failed">Másolás sikertelen</string>
+	
+	<string name="move_files">Fájlok áthelyezése …</string>
+	<string name="move_files_detail">Áthelyezés %s</string>
+	<string name="move_complete">Áthelyezés kész</string>
+	<string name="move_failed">Áthelyezés sikertelen</string>
+	
+	<string name="delete_files">Fájlok törlése …</string>
+	<string name="delete_files_single_confirm">Biztosan törlöd: %s?</string>
+	<string name="delete_files_multi_confirm">Biztosan törlöd a(z) %s fájlokat?</string>
+	<string name="delete_files_detail">Törlés %s</string>
+	<string name="delete_complete">Törlés kész</string>
+	<string name="delete_failed">Törlés sikertelen</string>
+	
+	<string name="new_folder_title">Add meg a mappa nevét:</string>
+	<string name="new_folder_default_name">Új mappa</string>
+	<string name="new_folder_successful">Mappa létrehozva</string>
+	<string name="new_folder_failed">Mappa létrehozása sikertelen</string>
+	
+	<string name="rename_title">Add meg az új nevet:</string>
+	<string name="rename_successful">Átnevezés sikeres</string>
+	<string name="rename_failed">Átnevezés sikertelen</string>
+
+	<string name="side_main_storage_size">Storage: %s</string>
+	<string name="side_path_local">Kedvencek</string>
+	<string name="side_path_local_home">Kezdőlap</string>
+	<string name="side_path_local_sdcard">SD kártya</string>
+	<string name="side_path_local_dcim">DCIM</string>
+	<string name="side_path_local_download">Letöltés</string>
+	<string name="side_path_local_movies">Filmek</string>
+	<string name="side_path_local_music">Zene</string>
+	<string name="side_path_local_pictures">Képek</string>
+	
+	<string name="side_others">Többi</string>
+	<string name="side_others_view">Nézet</string>
+	<string name="side_others_order">Sorrend</string>
+	<string name="side_others_preferences">Beállítások</string>
+	<string name="side_others_exit">Kilépés</string>
+	
+	<string name="select_mode_single">Egyedüli kijelölés</string>
+	<string name="select_mode_multiple">Összetett kijelölés</string>
+	
+	<string name="select_description">%s kijelölve</string>
+	<string name="select_description_copy">Elem(ek) másolása %s ide …</string>
+	<string name="select_description_cut">Elem(ek) mozgatása %s ide …</string>
+	
+	<string name="search_searching">Keresés …</string>
+	<string name="search_result_title">Keresési eredmények</string>
+	<string name="search_result_too_many_results">Túl sok találat, mutasd az első %s</string>
+	<string name="search_result_no_results">Nincs találat</string>
+	
+	<string name="zip_open">Megnyitás …</string>
+	<string name="zip_unzip">Kicsomagolás</string>
+	<string name="zip_unziping">Kicsomagolás …</string>
+	<string name="zip_unzip_successful">Kicsomagolás sikeres</string>
+	<string name="zip_unzip_failed">Kicsomagolás sikertelen</string>
+	<string name="zip_zip">Becsomagolás</string>
+	<string name="zip_ziping">Becsomagolás …</string>
+	<string name="zip_zip_successful">Becsomagolás sikeres</string>
+	<string name="zip_zip_failed">Becsomagolás sikertelen</string>
+    
+	<string name="properties_general_path">Útvonal</string>
+	<string name="properties_general_include">Tartalom</string>
+	<string name="properties_general_include_item">%s elem(ek)</string>
+	<string name="properties_general_include_file">%s fájl(ok)</string>
+	<string name="properties_general_include_folder">%s könyvtár(ak)</string>
+	<string name="properties_general_size">Méret</string>
+	<string name="properties_general_permission">Engedély</string>
+	<string name="properties_general_last_modified">Utolsó módosítás</string>
+	<string name="properties_app_package_name">Csomag neve</string>
+	<string name="properties_app_minimum_version_required">Szükséges verzió</string>
+	<string name="properties_app_version_code">Verzió kód</string>
+	<string name="properties_app_version_name">Verzió néve</string>
+	<string name="properties_image_resolution">Felbontás</string>
+	
+	<string name="setting_view">Láthatósági beállítások</string>
+	<string name="setting_view_show_hidden">Rejtett fájl mutatása</string>
+	<string name="setting_view_show_hidden_tip">Ponttal kezdődő rejtett állományok mutatása</string>
+	<string name="setting_view_show_thumbnail">Előnézet</string>
+	<string name="setting_view_show_thumbnail_tip">Előnézet megjelenítése ikonként</string>
+	<string name="setting_view_clear_cache">Gyorsítótár törlése</string>
+	<string name="setting_view_clear_cache_tip">Kiüríti a gyorsítótárat</string>
+	<string name="setting_view_clear_cache_confirm">Gyorsítótár ürítése?</string>
+	<string name="setting_view_clear_cache_ing">Gyorsítótár törlése …</string>
+	<string name="setting_view_order">Sorrend</string>
+	<string name="setting_view_order2_asc">NÖV</string>
+	<string name="setting_view_order2_desc">CSÖKK</string>
+	<string name="setting_view_view">Nézet</string>
+	
+	<string name="setting_ui_theme">Téma</string>
+	<string name="setting_ui_theme_tip">A felhasználói felület kinézete</string>
+	<string name="setting_ui_color">Szín</string>
+	<string name="setting_ui_color_tip">A felhasználói felület színe</string>
+	
+	<string name="setting_preferences">Beállítási lehetőségek</string>
+	<string name="setting_preferences_home">Kezdő mappa</string>
+	<string name="setting_preferences_useen">Language</string>
+	<string name="setting_preferences_useen_on_tip">English</string>
+	<string name="setting_preferences_useen_off_tip">System default language</string>
+	
+	<string name="setting_about">Névjegy</string>
+	
+	<string name="setting_about_feedback">Feedback</string>
+	
+</resources>

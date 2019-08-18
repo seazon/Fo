@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_list_setting_order">
+        <item>Név</item>
+        <item>Típus</item>
+        <item>Méret</item>
+        <item>MódosításDátuma</item>
+    </string-array>
+    <string-array name="entries_list_setting_view">
+        <item>Lista</item>
+        <item>Ikonok</item>
+    </string-array>
+    <string-array name="entries_list_setting_ui_theme">
+        <item>Világos</item>
+        <item>Sötét</item>
+    </string-array>
+    <string-array name="entries_list_setting_ui_color">
+        <item>Zöld</item>
+        <item>Kék</item>
+        <item>Narancs</item>
+        <item>Pink</item>
+        <item>Vörös</item>
+        <item>Lila</item>
+    </string-array>
+</resources>

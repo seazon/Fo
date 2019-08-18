@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Fo</string>
+	<string name="no_files">ফোল্ডারটিতে কোন ফাইল নেই</string>
+	<string name="permission_denied">আপনি এটি করতে পারবেন না</string>
+	
+	<string name="common_confirm">কনফার্ম</string>
+	<string name="common_save">সেভ</string>
+	<string name="common_new">নতুন</string>
+	<string name="common_add">যোগ করুন</string>
+	<string name="common_close">ক্লোজ করুন</string>
+	<string name="common_cancel">বাতিল করে দিন</string>
+	<string name="common_search">খুঁজুন</string>
+	<string name="common_back">ফিরে যান</string>
+	
+	<string name="operator">নির্দেশ</string>
+	<string name="operator_select_all">সবগুলো সিলেক্ট</string>
+	<string name="operator_paste">পেস্ট</string>
+	<string name="operator_new_folder">নতুন ফোল্ডার</string>
+	<string name="operator_copy">কপি</string>
+	<string name="operator_cut">কেটে নিন</string>
+	<string name="operator_delete">ডিলিট</string>
+	
+	<string name="operator_open_with">কোন এপ্লিকেশন দিয়ে ওপেন করবেন?</string>
+	<string name="operator_properties">পছন্দসই সেটিংস</string>
+	<string name="operator_rename">নতুন নাম</string>
+	<string name="operator_send_by_bluetooth">ব্লুটুথে পাঠান</string>
+	<string name="operator_send_by">কীভাবে পাঠাতে চান?</string>
+	<string name="operator_set_home">নীড়পাতায় রাখুন</string>
+	<string name="operator_file_no_exist">এই নামে কোন ফাইল নেই</string>
+	<string name="operator_add_favorites">"প্রিয় লিস্টে" রাখুন</string>
+	<string name="operator_add_favorites_successful">"প্রিয় লিস্টে" রাখা হয়েছে</string>
+	<string name="operator_add_favorites_failed">"প্রিয় লিস্টে" রাখা যায়নি</string>
+	<string name="operator_add_favorites_failed_more_than_max"> সর্বোচ্চ %s টি "প্রিয় লিস্টে" রাখা যাবে</string>
+	<string name="operator_del_favorites_confirm">"প্রিয় লিস্ট" থেকে এই %s ফোল্ডারটি ডিলিট করবেন?</string>
+	<string name="operator_del_favorites_successful">"প্রিয় লিস্ট" থেকে ডিলিট করা হয়েছে</string>
+	<string name="operator_del_favorites_failed">"প্রিয় লিস্ট" থেকে ডিলিট করা যায়নি</string>
+	<string name="operator_zip">কম্প্রেস করুন</string>
+	<string name="operator_add_shortcut">"শর্টকাট" বানিয়ে নিন</string>
+	<string name="operator_add_shortcut_successful">%s আইটেমটির শর্টকাট বানানো হয়েছে</string>
+	<string name="operator_add_shortcut_failed">%s আইটেমটি "শর্টকাট" বানানো যায়নি</string>
+	
+	<string name="hint_invalid_path"></string>
+	<string name="hint_set_home_successful">%s ফোল্ডারটি নীড়পাতায় যুক্ত হয়েছে</string>
+	<string name="hint_set_home_failed_1">ফোল্ডারটি নীড়পাতায় যুক্ত করা যায়নি</string>
+	<string name="hint_set_home_failed_2">এরকম কোন এড্রেস নেই</string>
+	<string name="send_failed">ফাইল সফলভাবে পাঠানো যায়নি</string>
+	<string name="send_failed_can_not_send_folder">ফোল্ডারগুলো সফলভাবে পাঠানো যায়নি</string>
+	<string name="hint_send_failed_2">ব্লুটুথ বন্ধ রয়েছে</string>
+	
+	<string name="copy_files">ফাইল কপি হচ্ছে …</string>
+	<string name="copy_files_detail">%s ফাইলটি কপি হচ্ছে</string>
+	<string name="copy_complete">আইটেমগুলো সফলভাবে কপি করা হয়েছে</string>
+	<string name="copy_failed">সবগুলো আইটেম সফলভাবে কপি হয়নি</string>
+	
+	<string name="move_files">ফাইল মুভ হচ্ছে …</string>
+	<string name="move_files_detail">%s ফাইলটি মুভ হচ্ছে</string>
+	<string name="move_complete">সফলভাবে মুভ করা হয়েছে</string>
+	<string name="move_failed">সম্পুর্ণ সঠিকভাবে মুভ হয়নি</string>
+	
+	<string name="delete_files">ফাইল ডিলিট হচ্ছে …</string>
+	<string name="delete_files_single_confirm">আপনি কি এই %s আইটেমটি ডিলিট করতে চান?</string>
+	<string name="delete_files_multi_confirm">আপনি কি এই %s টি ফাইল ডিলিট করবেন?</string>
+	<string name="delete_files_detail">%s ফাইলটি ডিলিট হচ্ছে</string>
+	<string name="delete_complete">ডিলিট করা হয়েছে</string>
+	<string name="delete_failed">সবগুলো আইটেম সঠিকভাবে ডিলিট হয়নি</string>
+	
+	<string name="new_folder_title">নতুন ফোল্ডারের নাম</string>
+	<string name="new_folder_default_name">New Folder</string>
+	<string name="new_folder_successful">নতুন ফোল্ডার বানানো হয়েছে</string>
+	<string name="new_folder_failed">ফোল্ডারটি সঠিকভাবে বানানো যায়নি</string>
+	
+	<string name="rename_title">নতুন নাম</string>
+	<string name="rename_successful">সফলভাবে নতুন নাম দেয়া হয়েছে</string>
+	<string name="rename_failed">নতুন নাম রাখা যায়নি</string>
+
+	<string name="side_main_storage_size">স্টোরেজ: %s</string>
+	<string name="side_path_local">প্রিয় লিস্ট</string>
+	<string name="side_path_local_home">নীড়পাতা</string>
+	<string name="side_path_local_sdcard">মেমোরি কার্ড</string>
+	<string name="side_path_local_dcim">ক্যামেরার ছবি</string>
+	<string name="side_path_local_download">ডাউনলোড</string>
+	<string name="side_path_local_movies">মুভিজ</string>
+	<string name="side_path_local_music">গান</string>
+	<string name="side_path_local_pictures">ছবিসমূহ</string>
+	
+	<string name="side_others">অন্যান্য ফাইল</string>
+	<string name="side_others_view">দেখুন</string>
+	<string name="side_others_order">ক্রমবিন্যাস</string>
+	<string name="side_others_preferences">পছন্দসই সেটিংস</string>
+	<string name="side_others_exit">ক্লোজ</string>
+	
+	<string name="select_mode_single">শুধু একটি</string>
+	<string name="select_mode_multiple">একসাথে অনেকগুলো</string>
+	
+	<string name="select_description">%s টি সিলেক্ট হয়েছে</string>
+	<string name="select_description_copy">এই %s টি আইটেম কপি করুন …</string>
+	<string name="select_description_cut">এই %s টি আইটেম কেটে নিন …</string>
+	
+	<string name="search_searching">খোঁজা হচ্ছে …</string>
+	<string name="search_result_title">খুঁজে পাওয়া আইটেম</string>
+	<string name="search_result_too_many_results">অনেকগুলো আইটেম পাওয়া গেছে, তাই প্রথম %s টি দেখানো হচ্ছে</string>
+	<string name="search_result_no_results">এই নামে কোন আইটেম পাওয়া যায়নি</string>
+	
+	<string name="zip_open">ওপেন করুন ...</string>
+	<string name="zip_unzip">এক্সট্রাক্ট করুন ...</string>
+	<string name="zip_unziping">এক্সট্রাক্ট করা হচ্ছে ...</string>
+	<string name="zip_unzip_successful">এক্সট্রাক্ট করা হয়েছে</string>
+	<string name="zip_unzip_failed">এক্সট্রাক্ট করা যায়নি</string>
+	<string name="zip_zip">কম্প্রেস করুন</string>
+	<string name="zip_ziping">কম্প্রেস হচ্ছে ...</string>
+	<string name="zip_zip_successful">সফলভাবে কম্প্রেস হয়েছে</string>
+	<string name="zip_zip_failed">সঠিকভাবে কম্প্রেস করা যায়নি</string>
+	
+	<string name="properties_general_path">এড্রেস</string>
+	<string name="properties_general_include">সংযুক্ত করুন</string>
+	<string name="properties_general_include_item">%s টি আইটেম</string>
+	<string name="properties_general_include_file">%s টি ফাইল</string>
+	<string name="properties_general_include_folder">%s টি ফোল্ডার</string>
+	<string name="properties_general_size">সাইজ</string>
+	<string name="properties_general_permission">যেসকলয পারমিশন প্রয়োজন</string>
+	<string name="properties_general_last_modified">সর্বশেষ এডিটের তারিখ</string>
+	<string name="properties_app_package_name">প্যাকেজের নাম</string>
+	<string name="properties_app_minimum_version_required">ইন্সটল করতে কমপক্ষে যে এন্ড্রয়েড ভার্শন লাগবে</string>
+	<string name="properties_app_version_code">ভার্শন কোড</string>
+	<string name="properties_app_version_name">ভার্শনের নাম</string>
+	<string name="properties_image_resolution">ছবির আকার</string>
+	
+	<string name="setting_view">সেটিংস</string>
+	<string name="setting_view_show_hidden">লুকানো ফাইল দেখুন</string>
+	<string name="setting_view_show_hidden_tip"> \'.\' ক্যারেক্টার দিয়ে নাম শুরু হওয়া ফাইলগুলোকে "হিডেন" বা "লুকানো" ফাইল বলা হয়। এই ফাইলগুলো সাধারণত লুকানো থাকে।</string>
+	<string name="setting_view_show_thumbnail">ছবির "থাম্বনেইল" দেখুন</string>
+	<string name="setting_view_show_thumbnail_tip">যেকোন ছবির একটি ছোট্ট অংশ যা ছবিটি কী তা সহজেই বলে দেয়, সেটাই হলো "থাম্বনেইল"। এই থাম্বনেইলটিকে ছবির একটি আইকন হিসেবে দেখা যায়। যদিও এটি আলাদা কিছু স্পেস নেয়, আপনার কাঙ্ক্ষিত ছবিটি সহজেই খুঁজে পেতে পারেন এর মাধ্যমে।</string>
+	<string name="setting_view_clear_cache">থাম্বনেইল এর ডেটা ক্লিন করুন</string>
+	<string name="setting_view_clear_cache_tip">থাম্বনেইল যে স্পেস নিয়েছে সেই ডেটা ক্লিন করুন। মনে রাখবেন, এতে করে আপনি প্রয়োজনীয় ছবিটি সহজে খুঁজে পাবেন না।</string>
+	<string name="setting_view_clear_cache_confirm">ক্লিন করবেন?</string>
+	<string name="setting_view_clear_cache_ing">ক্লিন হচ্ছে ...</string>
+	<string name="setting_view_order">ক্রমবিন্যাস</string>
+	<string name="setting_view_order2_asc">ছোট থেকে বড়</string>
+	<string name="setting_view_order2_desc">বড় থেকে ছোট</string>
+	<string name="setting_view_view">দেখুন</string>
+	
+	<string name="setting_ui_theme">থিম</string>
+	<string name="setting_ui_theme_tip">"থিম" ঠিক করে দেয় বিভিন্ন আইটেম, আইকন কীভাবে প্রদর্শিত হবে। যেমন, "ব্লু" থিম সিলেক্ট করলে সব আইকন নীল রঙে দেখা যাবে।</string>
+	<string name="setting_ui_color">রঙ</string>
+	<string name="setting_ui_color_tip">মূল রঙটি কী হবে তা ঠিক করুন।</string>
+	
+	<string name="setting_preferences">সেটিংস</string>
+	<string name="setting_preferences_home">এপ্লিকেশনটি ওপেন করলে প্রথমে যে এড্রেস দেখাবে</string>
+	<string name="setting_preferences_useen">ভাষা</string>
+	<string name="setting_preferences_useen_on_tip">English</string>
+	<string name="setting_preferences_useen_off_tip">ফোনের বর্তমান ভাষা</string>
+	
+	<string name="setting_about">Fo সম্পর্কে</string>
+	
+	<string name="setting_about_feedback">আপনার পরামর্শ</string>
+
+</resources>

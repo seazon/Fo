@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string-array name="entries_list_setting_order">
+		<item>নাম</item>
+		<item>টাইপ</item>
+		<item>সাইজ</item>
+        <item>শেষ পরিবর্তনের তারিখ</item>
+	</string-array>
+	<string-array name="entries_list_setting_view">
+		<item>লিস্ট</item>
+		<item>আইকন</item>
+	</string-array>
+	<string-array name="entries_list_setting_ui_theme">
+		<item>উজ্জ্বল</item>
+		<item>গাঢ়</item>
+	</string-array>
+	<string-array name="entries_list_setting_ui_color">
+		<item>সবুজ</item>
+		<item>নীল</item>
+		<item>কমলা</item>
+		<item>গোলাপি</item>
+		<item>লাল</item>
+		<item>বেগুনি</item>
+	</string-array>
+</resources>

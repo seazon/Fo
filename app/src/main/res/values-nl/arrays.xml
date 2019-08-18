@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="entries_list_setting_order">
+		<item>Naam</item>
+		<item>Type</item>
+		<item>Grootte</item>
+		<item>Datum gewijzigd</item>
+	</string-array>
+	<string-array name="entries_list_setting_view">
+		<item>Lijst</item>
+		<item>Iconen</item>
+	</string-array>
+	<string-array name="entries_list_setting_ui_theme">
+		<item>Licht</item>
+		<item>Donker</item>
+	</string-array>
+	<string-array name="entries_list_setting_ui_color">
+		<item>Groen</item>
+		<item>Blauw</item>
+		<item>Oranje</item>
+		<item>Rose</item>
+		<item>Rood</item>
+		<item>Paars</item>
+	</string-array>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="220dp"
+    android:layout_height="wrap_content"
+	style="@style/colorBackgroundSection"
+	android:paddingRight="1dp"
+	android:paddingBottom="1dp"
+    >
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	style="@style/colorBackground"
+    >
+<RelativeLayout
+    android:id="@+id/bgLayout"
+    android:layout_width="match_parent"
+    android:layout_height="84dp"
+    >
+
+	<ImageView 
+		android:id="@+id/img"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:scaleType="centerCrop"
+        android:layout_margin="4dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+	    android:src="@drawable/format_file"
+        />
+	
+	<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/img"
+        android:layout_centerVertical="true"
+		android:layout_margin="4dp"
+        >
+
+        <TextView 
+        	android:id="@+id/name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:minLines="1"
+            android:maxLines="3"
+            android:ellipsize="end"
+            android:text="this is file name this is file name this is file nage this is fgle gme this is file name "
+            style="@style/textPrimary"
+            />
+
+        <TextView  
+        	android:id="@+id/desc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:singleLine="true"
+            android:text="thgis is figle desc this is file desc this is file desc "
+            style="@style/textSecondary"
+            />
+
+    </LinearLayout>
+    
+	<ImageView 
+		android:id="@+id/select"
+		android:layout_width="match_parent"
+        android:layout_height="match_parent"
+		/>
+
+</RelativeLayout>
+</LinearLayout>
+</LinearLayout>

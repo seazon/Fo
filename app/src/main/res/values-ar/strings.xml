@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fo</string>
+    <string name="no_files">مجلد فارغ</string>
+    <string name="permission_denied">تم رفض الوصول</string>
+
+    <string name="common_confirm">تأكيد</string>
+    <string name="common_save">حفظ</string>
+    <string name="common_new">جديد</string>
+    <string name="common_add">إضافة</string>
+    <string name="common_close">إغلاق</string>
+    <string name="common_cancel">إلغاء القفل</string>
+    <string name="common_search">بحث</string>
+    <string name="common_back">للخلف</string>
+
+    <string name="operator">العامل</string>
+    <string name="operator_select_all">تحديد الكل</string>
+    <string name="operator_paste">لصق</string>
+    <string name="operator_new_folder">مجلد جديد</string>
+    <string name="operator_copy">نسخ</string>
+    <string name="operator_cut">قص</string>
+    <string name="operator_delete">حذف</string>
+
+    <string name="operator_open_with">فتح باستخدام ...</string>
+    <string name="operator_properties">الخصائص</string>
+    <string name="operator_rename">إعادة التسمية</string>
+    <string name="operator_send_by_bluetooth">إرسال بالبلوتوث</string>
+    <string name="operator_send_by">إرسال بوساطة ..</string>
+    <string name="operator_set_home">تعيين كصفحة رئيسية</string>
+    <string name="operator_file_no_exist">الملف غير موجود</string>
+    <string name="operator_add_favorites">إضافة إلى المفضلة</string>
+    <string name="operator_add_favorites_successful">تمت الإضافة إلى المفضلة بنجاح</string>
+    <string name="operator_add_favorites_failed">الإضافة إلى المفضلة فشلت</string>
+    <string name="operator_add_favorites_failed_more_than_max">%s عدد المفضلات ليس أكثر من </string>
+    <string name="operator_del_favorites_confirm">من المفضلة؟  %s حذف</string>
+    <string name="operator_del_favorites_successful">تم الحذف من المفضلة بنجاح</string>
+    <string name="operator_del_favorites_failed">تعذر الحذف من المفضلة</string>
+    <string name="operator_zip">ضغط</string>
+    <string name="operator_add_shortcut">إضافة اختصار</string>
+    <string name="operator_add_shortcut_successful">بنجاح %s تم إضافة اختصار</string>
+    <string name="operator_add_shortcut_failed"> %s تعذر إنشاء اختصار</string>
+
+    <string name="hint_invalid_path">مسار غير صالح</string>
+    <string name="hint_set_home_successful"> %s الآن في الصفحة الرئيسية </string>
+    <string name="hint_set_home_failed_1">لا يمكن إرسال الملفات للصفحة الرئيسية</string>
+    <string name="hint_set_home_failed_2">الدليل غير موجود</string>
+    <string name="send_failed">تعذر إرسال الملفات</string>
+    <string name="send_failed_can_not_send_folder">لا يمكن إرسال الملفات</string>
+    <string name="hint_send_failed_2">البلوتوث غير نشط</string>
+
+    <string name="copy_files">يتم نسخ الملفات ..</string>
+    <string name="copy_files_detail"> %s يتم النسخ  </string>
+    <string name="copy_complete">تم اكتمال النسخ</string>
+    <string name="copy_failed">تعذر النسخ</string>
+
+    <string name="move_files">يتم نقل الملفات  …</string>
+    <string name="move_files_detail">يتم النقل %s</string>
+    <string name="move_complete">إكتمل النقل بنجاح</string>
+    <string name="move_failed">تعذر النقل</string>
+
+    <string name="delete_files">حذف الملفات …</string>
+    <string name="delete_files_single_confirm">هل أنت متأكد من حذف  %s   </string>
+    <string name="delete_files_multi_confirm">هل أنت متأكد من حذف %s </string>
+    <string name="delete_files_detail">يتم الحذف %s</string>
+    <string name="delete_complete">إكتمال الحذف بنجاح</string>
+    <string name="delete_failed">تعذر الحذف</string>
+
+    <string name="new_folder_title">اكتب اسم المجلد</string>
+    <string name="new_folder_default_name">مجلد جديد</string>
+    <string name="new_folder_successful">تم إنشاء مجلد جديد بنجاح</string>
+    <string name="new_folder_failed">تعذر إنشاء مجلد جديد</string>
+
+    <string name="rename_title">ضع اسماً جديداً</string>
+    <string name="rename_successful">تمت إعادة التسمية بنجاح</string>
+    <string name="rename_failed">تعذر إعادة التسمية</string>
+
+    <string name="side_main_storage_size"> %s التخزين </string>
+    <string name="side_path_local">المفضلة</string>
+    <string name="side_path_local_home">الرئيسية</string>
+    <string name="side_path_local_sdcard">البطاقة الخارجية</string>
+    <string name="side_path_local_dcim">مجلد الكاميرا</string>
+    <string name="side_path_local_download">التحميلات</string>
+    <string name="side_path_local_movies">الأفلام</string>
+    <string name="side_path_local_music">الموسيقى</string>
+    <string name="side_path_local_pictures">الصور</string>
+
+    <string name="side_others">أخرى</string>
+    <string name="side_others_view">عرض</string>
+    <string name="side_others_order">الطلب</string>
+    <string name="side_others_preferences">التفضيلات</string>
+    <string name="side_others_exit">خروج</string>
+
+    <string name="select_mode_single">أحادي</string>
+    <string name="select_mode_multiple">متعدد</string>
+
+    <string name="select_description">محدد %s </string>
+    <string name="select_description_copy">مادة %s نسخ</string>
+    <string name="select_description_cut">مادة لـ... ( %s  )قص</string>
+
+    <string name="search_searching">يتم البحث ...</string>
+    <string name="search_result_title">نتيجة البحث</string>
+    <string name="search_result_too_many_results"> %s الكثير من النتائج، تظهر فقط في أول</string>
+    <string name="search_result_no_results">لا توجد نتائج</string>
+
+    <string name="zip_open">فتح ...</string>
+    <string name="zip_unzip">استخراج</string>
+    <string name="zip_unziping">يتم الاستخراج ...</string>
+    <string name="zip_unzip_successful">تم الاستخراج بنجاح</string>
+    <string name="zip_unzip_failed">لقد فشل الاستخراج</string>
+    <string name="zip_zip">ضغط</string>
+    <string name="zip_ziping">يتم الضغط... </string>
+    <string name="zip_zip_successful">تم الضغط بنجاح</string>
+    <string name="zip_zip_failed">لقد فشل الضغط</string>
+
+    <string name="properties_general_path">المكان</string>
+    <string name="properties_general_include">تضمين</string>
+    <string name="properties_general_include_item">مادة %s </string>
+    <string name="properties_general_include_file">%s الملف(ات)</string>
+    <string name="properties_general_include_folder">%s  المجلد(ات)</string>
+    <string name="properties_general_size">الحجم</string>
+    <string name="properties_general_permission">الأذونات</string>
+    <string name="properties_general_last_modified">آخر تعديل</string>
+    <string name="properties_app_package_name">اسم الحزمة</string>
+    <string name="properties_app_minimum_version_required">الحد الأدنى للإصدار مطلوب</string>
+    <string name="properties_app_version_code">رقم الإصدار</string>
+    <string name="properties_app_version_name">اسم الإصدار</string>
+    <string name="properties_image_resolution">الدقة</string>
+
+    <string name="setting_view">عرض الإعدادات</string>
+    <string name="setting_view_show_hidden">إظهار الملفات المخفية</string>
+    <string name="setting_view_show_hidden_tip">عرض المفات التي تبدأ بنقطة</string>
+    <string name="setting_view_show_thumbnail">عرض المصغرات</string>
+    <string name="setting_view_show_thumbnail_tip">استخدام المصغرات كأيقونات</string>
+    <string name="setting_view_clear_cache">مسح الملفات المؤقتة</string>
+    <string name="setting_view_clear_cache_tip">مسح الملفات المؤقتة من مصغرات وغير ذلك</string>
+    <string name="setting_view_clear_cache_confirm">هل تريد مسح الملفات المؤقتة ؟</string>
+    <string name="setting_view_clear_cache_ing"> ...يتم مسح الملفات المؤقتة</string>
+    <string name="setting_view_order">الترتيب</string>
+    <string name="setting_view_order2_asc">تصاعدي</string>
+    <string name="setting_view_order2_desc">تنازلي</string>
+    <string name="setting_view_view">عرض</string>
+
+    <string name="setting_ui_theme">السمة</string>
+    <string name="setting_ui_theme_tip">السمة الرئيسية لواجهة المستخدم</string>
+    <string name="setting_ui_color">اللون</string>
+    <string name="setting_ui_color_tip">اللون الرئيسي لواجهة المستخدم</string>
+
+    <string name="setting_preferences">الإعدادات</string>
+    <string name="setting_preferences_home">الدليل الرئيسي</string>
+    <string name="setting_preferences_useen">اللغة</string>
+    <string name="setting_preferences_useen_on_tip">العربية</string>
+    <string name="setting_preferences_useen_off_tip">لغة النظام الافتراضية</string>
+
+    <string name="setting_about">حول</string>
+
+    <string name="setting_about_feedback">ردود فعل</string>
+
+</resources>

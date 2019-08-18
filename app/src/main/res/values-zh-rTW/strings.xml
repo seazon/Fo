@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fo</string>
+    <string name="no_files">資料夾是空的</string>
+    <string name="permission_denied">禁止開啟</string>
+    
+	<string name="common_confirm">確定</string>
+	<string name="common_save">儲存</string>
+	<string name="common_new">新增</string>
+	<string name="common_add">增加</string>
+	<string name="common_close">關閉</string>
+	<string name="common_cancel">取消</string>
+	<string name="common_search">搜尋</string>
+	<string name="common_back">返回</string>
+	
+	<string name="operator">操作</string>
+	<string name="operator_select_all">全選</string>
+	<string name="operator_paste">貼上</string>
+	<string name="operator_new_folder">新增資料夾</string>
+	<string name="operator_copy">複製</string>
+	<string name="operator_cut">剪下</string>
+	<string name="operator_delete">刪除</string>
+	
+	<string name="operator_open_with">打開方式…</string>
+	<string name="operator_properties">內容</string>
+	<string name="operator_rename">重新命名</string>
+	<string name="operator_send_by_bluetooth">透過藍牙傳送</string>
+	<string name="operator_send_by">傳送…</string>
+	<string name="operator_set_home">設為首頁</string>
+	<string name="operator_file_no_exist">檔案不存在</string>
+	<string name="operator_add_favorites">加到我的最愛</string>
+	<string name="operator_add_favorites_successful">加到我的最愛成功</string>
+	<string name="operator_add_favorites_failed">加到我的最愛失敗</string>
+	<string name="operator_add_favorites_failed_more_than_max">我的最愛數量最多為 %s 個</string>
+	<string name="operator_del_favorites_confirm">在我的最愛中刪除%s？</string>
+	<string name="operator_del_favorites_successful">我的最愛刪除成功</string>
+	<string name="operator_del_favorites_failed">我的最愛刪除失敗</string>
+	<string name="operator_zip">壓縮</string>
+	<string name="operator_add_shortcut">添加快捷方式</string>
+	<string name="operator_add_shortcut_successful">添加快捷方式 %s 成功</string>
+	<string name="operator_add_shortcut_failed">添加快捷方式 %s 失敗</string>
+	
+	<string name="hint_invalid_path">無效的位置</string>
+	<string name="hint_set_home_successful">現在的首頁是 %s</string>
+	<string name="hint_set_home_failed_1">不能將檔案設為首頁</string>
+	<string name="hint_set_home_failed_2">資料夾不存在</string>
+	<string name="send_failed">傳送檔案失敗</string>
+	<string name="send_failed_can_not_send_folder">不能傳送資料夾</string>
+	<string name="hint_send_failed_2">沒有開啟藍牙</string>
+	
+	<string name="copy_files">複製檔案…</string>
+	<string name="copy_files_detail">正在複製%s</string>
+	<string name="copy_complete">複製完成</string>
+	<string name="copy_failed">複製失敗</string>
+	
+	<string name="move_files">移動檔案…</string>
+	<string name="move_files_detail">正在移動%s</string>
+	<string name="move_complete">移動完成</string>
+	<string name="move_failed">移動失敗</string>
+	
+	<string name="delete_files">刪除檔案…</string>
+	<string name="delete_files_single_confirm">您確定要刪除%s嗎？</string>
+	<string name="delete_files_multi_confirm">您確定要將這 %s個項目刪除嗎？</string>
+	<string name="delete_files_detail">正在刪除%s</string>
+	<string name="delete_complete">刪除完成</string>
+	<string name="delete_failed">刪除失敗</string>
+	
+	<string name="new_folder_title">輸入資料夾名稱</string>
+	<string name="new_folder_default_name">新增資料夾</string>
+	<string name="new_folder_successful">新增資料夾成功</string>
+	<string name="new_folder_failed">新增資料夾失敗</string>
+	
+	<string name="rename_title">輸入新的名稱</string>
+	<string name="rename_successful">重新命名成功</string>
+	<string name="rename_failed">重新命名失敗</string>
+
+	<string name="side_main_storage_size">存儲: %s</string>
+	<string name="side_path_local">我的最愛</string>
+	<string name="side_path_local_home">首頁</string>
+	<string name="side_path_local_sdcard">SD 卡</string>
+	<string name="side_path_local_dcim">DCIM</string>
+	<string name="side_path_local_download">下載</string>
+	<string name="side_path_local_movies">電影</string>
+	<string name="side_path_local_music">音樂</string>
+	<string name="side_path_local_pictures">圖片</string>
+
+	<string name="side_others">其他</string>
+	<string name="side_others_view">排列方式</string>
+	<string name="side_others_order">排序</string>
+	<string name="side_others_preferences">偏好設定</string>
+	<string name="side_others_exit">離開</string>
+	
+	<string name="select_mode_single">單選</string>
+	<string name="select_mode_multiple">多選</string>
+	
+	<string name="select_description">選取了 %s個項目</string>
+	<string name="select_description_copy">複製 %s個項目到…</string>
+	<string name="select_description_cut">移動 %s個項目到…</string>
+	
+	<string name="search_searching">搜尋檔案…</string>
+	<string name="search_result_title">搜尋結果</string>
+	<string name="search_result_too_many_results">搜尋的結果過多，只顯示前 %s個項目。</string>
+	<string name="search_result_no_results">沒有符合搜尋的項目</string>
+	
+	<string name="zip_open">開啟…</string>
+	<string name="zip_unzip">解壓縮</string>
+	<string name="zip_unziping">正在解壓縮…</string>
+	<string name="zip_unzip_successful">解壓縮成功</string>
+	<string name="zip_unzip_failed">解壓縮失敗</string>
+	<string name="zip_zip">壓縮</string>
+	<string name="zip_ziping">正在壓縮…</string>
+	<string name="zip_zip_successful">壓縮成功</string>
+	<string name="zip_zip_failed">壓縮失敗</string>
+	
+	<string name="properties_general_path">位置</string>
+	<string name="properties_general_include">包含</string>
+	<string name="properties_general_include_item">%s個項目</string>
+	<string name="properties_general_include_file">%s個檔案</string>
+	<string name="properties_general_include_folder">%s個資料夾</string>
+	<string name="properties_general_size">大小</string>
+	<string name="properties_general_permission">權限</string>
+	<string name="properties_general_last_modified">修改日期</string>
+	<string name="properties_app_package_name">安裝檔名稱</string>
+	<string name="properties_app_minimum_version_required">版本要求</string>
+	<string name="properties_app_version_code">版本編號</string>
+	<string name="properties_app_version_name">版本名稱</string>
+	<string name="properties_image_resolution">解析度</string>
+	
+	<string name="setting_view">檢視</string>
+	<string name="setting_view_show_hidden">顯示隱藏的檔案</string>
+	<string name="setting_view_show_hidden_tip">顯示點開頭的檔案</string>
+	<string name="setting_view_show_thumbnail">顯示縮圖</string>
+	<string name="setting_view_show_thumbnail_tip">使用縮圖代替圖示</string>
+	<string name="setting_view_clear_cache">清空快取</string>
+	<string name="setting_view_clear_cache_tip">清空縮圖等數據</string>
+	<string name="setting_view_clear_cache_confirm">您確定要清空快取嗎？</string>
+	<string name="setting_view_clear_cache_ing">正在清空快取…</string>
+	<string name="setting_view_order">排序</string>
+	<string name="setting_view_order2_asc">遞增</string>
+	<string name="setting_view_order2_desc">遞減</string>
+	<string name="setting_view_view">排列方式</string>
+	
+	<string name="setting_ui_theme">主題</string>
+	<string name="setting_ui_theme_tip">設定使用者介面的主題</string>
+	<string name="setting_ui_color">顏色</string>
+	<string name="setting_ui_color_tip">設定使用者介面的主色調</string>
+	
+	<string name="setting_preferences">偏好設定</string>
+	<string name="setting_preferences_home">首頁</string>
+	<string name="setting_preferences_useen">語言</string>
+	<string name="setting_preferences_useen_on_tip">英語</string>
+	<string name="setting_preferences_useen_off_tip">系統默認語言</string>
+	
+	<string name="setting_about">關於</string>
+	
+	<string name="setting_about_feedback">Feedback</string>
+	
+</resources>

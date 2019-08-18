@@ -1,0 +1,24 @@
+<resources>
+	<string-array name="entries_list_setting_order">
+		<item>"Όνομασία"</item>
+		<item>"Είδος"</item>
+		<item>"Μέγεθος"</item>
+		<item>"Τροποποιημένα δεδομένα"</item>
+	</string-array>
+	<string-array name="entries_list_setting_view">
+		<item>"Λίστα"</item>
+		<item>"Εικονίδιο"</item>
+	</string-array>
+	<string-array name="entries_list_setting_ui_theme">
+		<item>"ελαφρύ"</item>
+		<item>"Σκούρο"</item>
+	</string-array>
+	<string-array name="entries_list_setting_ui_color">
+		<item>"Πράσινο"</item>
+		<item>"Μπλε"</item>
+		<item>"Πορτοκαλί:"</item>
+		<item>"Ροζ:"</item>
+		<item>"Κόκκινο"</item>
+		<item>"Μωβ"</item>
+	</string-array>
+</resources>

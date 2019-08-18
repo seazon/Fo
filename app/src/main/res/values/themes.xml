@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="HoloLight" parent="android:Theme.Holo.Light">
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:textColorPrimary">@color/light_text_primary</item>
+		<item name="android:textColorSecondary">@color/light_text_secondary</item>
+		<item name="android:colorBackground">@color/light_bg</item>
+		<item name="drawableBackground">@drawable/bg</item>
+		<item name="android:listDivider">@color/light_divider</item>
+		<item name="sectionDivider">@color/light_section_divider</item>
+	</style>
+	<style name="HoloDark" parent="android:Theme.Holo">
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:textColorPrimary">@color/dark_text_primary</item>
+		<item name="android:textColorSecondary">@color/dark_text_secondary</item>
+		<item name="android:colorBackground">@color/dark_bg</item>
+		<item name="drawableBackground">@drawable/bg_dark</item>
+		<item name="android:listDivider">@color/dark_divider</item>
+		<item name="sectionDivider">@color/dark_section_divider</item>
+	</style>
+	<style name="Light" parent="android:Theme.Light">
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:textColorPrimary">@color/light_text_primary</item>
+		<item name="android:textColorSecondary">@color/light_text_secondary</item>
+		<item name="android:colorBackground">@color/light_bg</item>
+		<item name="drawableBackground">@drawable/bg</item>
+		<item name="android:listDivider">@color/light_divider</item>
+		<item name="sectionDivider">@color/light_section_divider</item>
+	</style>
+	<style name="Dark" parent="android:Theme">
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:textColorPrimary">@color/dark_text_primary</item>
+		<item name="android:textColorSecondary">@color/dark_text_secondary</item>
+		<item name="android:colorBackground">@color/dark_bg</item>
+		<item name="drawableBackground">@drawable/bg_dark</item>
+		<item name="android:listDivider">@color/dark_divider</item>
+		<item name="sectionDivider">@color/dark_section_divider</item>
+	</style>
+	<style name="HoloLightDialog" parent="android:Theme.Holo.Light.Dialog">
+		<item name="android:textColorPrimary">@color/light_text_primary</item>
+		<item name="android:textColorSecondary">@color/light_text_secondary</item>
+		<item name="android:colorBackground">@color/light_bg</item>
+		<item name="android:listDivider">@color/light_divider</item>
+	</style>
+	<style name="HoloDarkDialog" parent="android:Theme.Holo.Dialog">
+		<item name="android:textColorPrimary">@color/dark_text_primary</item>
+		<item name="android:textColorSecondary">@color/dark_text_secondary</item>
+		<item name="android:colorBackground">@color/dark_bg</item>
+		<item name="android:listDivider">@color/dark_divider</item>
+	</style>
+	<style name="LightDialog" parent="android:Theme.Dialog">
+		<item name="android:textColorPrimary">@color/light_text_primary</item>
+		<item name="android:textColorSecondary">@color/light_text_secondary</item>
+		<item name="android:colorBackground">@color/light_bg</item>
+		<item name="android:listDivider">@color/light_divider</item>
+	</style>
+	<style name="DarkDialog" parent="android:Theme.Dialog">
+		<item name="android:textColorPrimary">@color/dark_text_primary</item>
+		<item name="android:textColorSecondary">@color/dark_text_secondary</item>
+		<item name="android:colorBackground">@color/dark_bg</item>
+		<item name="android:listDivider">@color/dark_divider</item>
+	</style>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<style name="textPrimary">
+    <item name="android:textColor">?android:attr/textColorPrimary</item>
+</style>
+<style name="textSecondary">
+    <item name="android:textColor">?android:attr/textColorSecondary</item>
+</style>
+<style name="colorBackground">
+    <item name="android:background">?android:attr/colorBackground</item>
+</style>
+<style name="drawableBackground">
+    <item name="android:background">?drawableBackground</item>
+</style>
+<style name="list">
+    <item name="android:divider">?android:attr/listDivider</item>
+    <item name="android:dividerHeight">1dp</item>
+    <item name="android:cacheColorHint">#00000000</item>
+</style>
+<style name="moreDialogList">
+    <item name="android:divider">@color/dark_divider</item>
+    <item name="android:dividerHeight">1dp</item>
+    <item name="android:cacheColorHint">#00000000</item>
+</style>
+<style name="colorBackgroundSection">
+    <item name="android:background">?sectionDivider</item>
+</style>
+</resources>

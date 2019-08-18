@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string-array name="entries_list_setting_order">
+        <item>الاسم</item>
+        <item>النوع</item>
+        <item>الحجم</item>
+        <item>تاريخ التعديل</item>
+    </string-array>
+    <string-array name="entries_list_setting_view">
+        <item>قائمة</item>
+        <item>أيقونات</item>
+    </string-array>
+    <string-array name="entries_list_setting_ui_theme">
+        <item>فاتح</item>
+        <item>غامق</item>
+    </string-array>
+    <string-array name="entries_list_setting_ui_color">
+        <item>أخضر</item>
+        <item>أزرق</item>
+        <item>برتقالي</item>
+        <item>زهري</item>
+        <item>أحمر</item>
+        <item>بنفسجي</item>
+    </string-array>
+</resources>

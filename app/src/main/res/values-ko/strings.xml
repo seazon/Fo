@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">"Fo"</string>
+	<string name="no_files">"빈 폴더"</string>
+	<string name="permission_denied">"권한이 거부 됨"</string>
+	
+	<string name="common_confirm">"확인"</string>
+	<string name="common_save">"저장"</string>
+	<string name="common_new">"신규"</string>
+	<string name="common_add">"추가 "</string>
+	<string name="common_close">"가까운"</string>
+	<string name="common_cancel">"취소"</string>
+	<string name="common_search">"검색"</string>
+	<string name="common_back">"뒤로"</string>
+	
+	<string name="operator">"연산자"</string>
+	<string name="operator_select_all">"모두 선택"</string>
+	<string name="operator_paste">"붙여넣기"</string>
+	<string name="operator_new_folder">"새 폴더 :"</string>
+	<string name="operator_copy">"복사"</string>
+	<string name="operator_cut">"절단"</string>
+	<string name="operator_delete">"삭제"</string>
+	
+	<string name="operator_open_with">"로 열기 …"</string>
+	<string name="operator_properties">"속성"</string>
+	<string name="operator_rename">"이름 바꾸기"</string>
+	<string name="operator_send_by_bluetooth">"블루투스으로 보내기"</string>
+	<string name="operator_send_by">"에 의해 보내기 …"</string>
+	<string name="operator_set_home">"홈으로 설정"</string>
+	<string name="operator_file_no_exist">"파일이 존재하지"</string>
+	<string name="operator_add_favorites">"즐겨 찾기 추가"</string>
+	<string name="operator_add_favorites_successful">"성공적인 즐겨 찾기에 추가"</string>
+	<string name="operator_add_favorites_failed">"즐겨 찾기에 추가 실패"</string>
+	<string name="operator_add_favorites_failed_more_than_max">"%s보다 더 많은 수 없습니다"</string>
+	<string name="operator_del_favorites_confirm">"삭제 %s 즐겨 찾기를?"</string>
+	<string name="operator_del_favorites_successful">"성공적으로 즐겨 찾기에서 삭제"</string>
+	<string name="operator_del_favorites_failed">"즐겨 찾기에서 삭제 실패"</string>
+	<string name="operator_zip">"~을 압축하다"</string>
+	<string name="operator_add_shortcut">"바로 가기를 추가"</string>
+	<string name="operator_add_shortcut_successful">"바로 가기 추가 %s 성공을"</string>
+	<string name="operator_add_shortcut_failed">"바로 가기 추가 %s 실패"</string>
+	
+	<string name="hint_invalid_path">"잘못된 경로"</string>
+	<string name="hint_set_home_successful">"지금 집은 %s"</string>
+	<string name="hint_set_home_failed_1">"집으로 파일을 설정할 수 없습니다"</string>
+	<string name="hint_set_home_failed_2">"디렉토리가 존재하지 않습니다"</string>
+	<string name="send_failed">"전송 파일 (들) 실패"</string>
+	<string name="send_failed_can_not_send_folder">"폴더 (들)을 보낼 수 없습니다"</string>
+	<string name="hint_send_failed_2">"블루투스 비활성화되어 있습니다"</string>
+	
+	<string name="copy_files">"파일을 복사하는 중 …"</string>
+	<string name="copy_files_detail">"%s 복사"</string>
+	<string name="copy_complete">"완료 복사"</string>
+	<string name="copy_failed">"복사 실패"</string>
+	
+	<string name="move_files">"파일을 이동 …"</string>
+	<string name="move_files_detail">"이동 %s"</string>
+	<string name="move_complete">"완료 이동"</string>
+	<string name="move_failed">"이동 실패"</string>
+	
+	<string name="delete_files">"파일을 삭제하는 중 …"</string>
+	<string name="delete_files_single_confirm">"당신은 삭제 하시겠습니까 %s ?"</string>
+	<string name="delete_files_multi_confirm">"당신은 삭제 하시겠습니까 %s 파일을?"</string>
+	<string name="delete_files_detail">"%s 삭제 "</string>
+	<string name="delete_complete">"완료 삭제"</string>
+	<string name="delete_failed">"삭제 실패"</string>
+	
+	<string name="new_folder_title">"입력 폴더 이름"</string>
+	<string name="new_folder_default_name">"새 폴더 :"</string>
+	<string name="new_folder_successful">"새 폴더 성공적으로"</string>
+	<string name="new_folder_failed">"새 폴더 실패"</string>
+	
+	<string name="rename_title">"입력 새 이름"</string>
+	<string name="rename_successful">"성공적으로 이름 바꾸기"</string>
+	<string name="rename_failed">"이름 바꾸기가 실패했습니다"</string>
+
+	<string name="side_main_storage_size">"저장 : %s"</string>
+	<string name="side_path_local">"즐겨찾기"</string>
+	<string name="side_path_local_home">"홈"</string>
+	<string name="side_path_local_sdcard">"SD 카드"</string>
+	<string name="side_path_local_dcim">"DCIM"</string>
+	<string name="side_path_local_download">"다운로드"</string>
+	<string name="side_path_local_movies">"영화"</string>
+	<string name="side_path_local_music">"음악"</string>
+	<string name="side_path_local_pictures">"사진"</string>
+	
+	<string name="side_others">"기타사항"</string>
+	<string name="side_others_view">"보기"</string>
+	<string name="side_others_order">"주문"</string>
+	<string name="side_others_preferences">"맞춤 휴가를 제공합니다."</string>
+	<string name="side_others_exit">"출구"</string>
+	
+	<string name="select_mode_single">"미혼"</string>
+	<string name="select_mode_multiple">"복수"</string>
+	
+	<string name="select_description">"%s 선정"</string>
+	<string name="select_description_copy">"복사 %s 에 항목 (들)을 …"</string>
+	<string name="select_description_cut">"잘라 %s 에 항목 (들)을 …"</string>
+	
+	<string name="search_searching">"검색 중입니까?"</string>
+	<string name="search_result_title">"검색결과:"</string>
+	<string name="search_result_too_many_results">"너무 많은 결과, 첫 번째 만 표시 %s"</string>
+	<string name="search_result_no_results">"결과가 없습니다"</string>
+	
+	<string name="zip_open">"열기"</string>
+	<string name="zip_unzip">"~을 뽑다, ~을 추출하다"</string>
+	<string name="zip_unziping">"추출 중 …"</string>
+	<string name="zip_unzip_successful">"성공적으로 압축을 풉니 다"</string>
+	<string name="zip_unzip_failed">"추출 실패"</string>
+	<string name="zip_zip">"~을 압축하다"</string>
+	<string name="zip_ziping">"압축하는 중…"</string>
+	<string name="zip_zip_successful">"성공적으로 압축"</string>
+	<string name="zip_zip_failed">"압축 실패"</string>
+	
+	<string name="properties_general_path">"경로"</string>
+	<string name="properties_general_include">"포함"</string>
+	<string name="properties_general_include_item">"%s 항목 (들)"</string>
+	<string name="properties_general_include_file">"%s 파일 (들)"</string>
+	<string name="properties_general_include_folder">"%s 폴더 (들)"</string>
+	<string name="properties_general_size">"크기"</string>
+	<string name="properties_general_permission">"허가"</string>
+	<string name="properties_general_last_modified">"마지막으로 바뀌었"</string>
+	<string name="properties_app_package_name">"패키지 이름"</string>
+	<string name="properties_app_minimum_version_required">"최소 버전이 필요합니다"</string>
+	<string name="properties_app_version_code">"버전 코드"</string>
+	<string name="properties_app_version_name">"버전 이름"</string>
+	<string name="properties_image_resolution">"해상도"</string>
+	
+	<string name="setting_view">"설정보기"</string>
+	<string name="setting_view_show_hidden">"숨겨진 파일 표시"</string>
+	<string name="setting_view_show_hidden_tip">"포인트와 숨김 파일 시작"</string>
+	<string name="setting_view_show_thumbnail">"미리보기 이미지를 표시"</string>
+	<string name="setting_view_show_thumbnail_tip">"아이콘으로 미리보기 이미지를 사용하여"</string>
+	<string name="setting_view_clear_cache">"캐시 지우기"</string>
+	<string name="setting_view_clear_cache_tip">"캐시 데이터 (미리보기 등) 삭제"</string>
+	<string name="setting_view_clear_cache_confirm">"캐시 지우기"</string>
+	<string name="setting_view_clear_cache_ing">"캐시 지우기 …"</string>
+	<string name="setting_view_order">"주문"</string>
+	<string name="setting_view_order2_asc">"ASC"</string>
+	<string name="setting_view_order2_desc">"설명"</string>
+	<string name="setting_view_view">"보기"</string>
+	
+	<string name="setting_ui_theme">"테마"</string>
+	<string name="setting_ui_theme_tip">"사용자 인터페이스의 테마"</string>
+	<string name="setting_ui_color">"색상"</string>
+	<string name="setting_ui_color_tip">"사용자 인터페이스의 주요 색상"</string>
+	
+	<string name="setting_preferences">"설정 환경 설정"</string>
+	<string name="setting_preferences_home">"홈 디렉토리"</string>
+	<string name="setting_preferences_useen">언어</string>
+	<string name="setting_preferences_useen_on_tip">영어</string>
+	<string name="setting_preferences_useen_off_tip">시스템 기본 언어</string>
+	
+	<string name="setting_about">"관하여"</string>
+	
+	<string name="setting_about_feedback">Feedback</string>
+
+</resources>

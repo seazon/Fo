@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Fo</string>
+	<string name="no_files">התיקיה ריקה</string>
+	<string name="permission_denied">ההרשאה נדחתה</string>
+	
+	<string name="common_confirm">אשר</string>
+	<string name="common_save">שמור</string>
+	<string name="common_new">חדש</string>
+	<string name="common_add">הוסף</string>
+	<string name="common_close">סגור</string>
+	<string name="common_cancel">ביטול</string>
+	<string name="common_search">חיפוש</string>
+	<string name="common_back">חזור</string>
+	
+	<string name="operator">פעולות</string>
+	<string name="operator_select_all">בחר הכל</string>
+	<string name="operator_paste">הדבק</string>
+	<string name="operator_new_folder">תיקיה חדשה</string>
+	<string name="operator_copy">העתק</string>
+	<string name="operator_cut">גזור</string>
+	<string name="operator_delete">מחק</string>
+	
+	<string name="operator_open_with">פתח באמצעות...</string>
+	<string name="operator_properties">מאפיינים</string>
+	<string name="operator_rename">שנה שם</string>
+	<string name="operator_send_by_bluetooth">שלח באמצעות Bluetooth</string>
+	<string name="operator_send_by">שלח באמצעות...</string>
+	<string name="operator_set_home">הגדר כעמוד הבית</string>
+	<string name="operator_file_no_exist">הקובץ לא קיים</string>
+	<string name="operator_add_favorites">הוסף מועדפים</string>
+	<string name="operator_add_favorites_successful">נוסף בהצלחה למועדפים</string>
+	<string name="operator_add_favorites_failed">ההוספה למועדפים נכשלה</string>
+	<string name="operator_add_favorites_failed_more_than_max">לא יכול יותר מ %s</string>
+	<string name="operator_del_favorites_confirm">למחוק את %s מהמועדפים?</string>
+	<string name="operator_del_favorites_successful">נמחק מהמועדפים בהצלחה</string>
+	<string name="operator_del_favorites_failed">המחיקה מהמועדפים נכשלה</string>
+	<string name="operator_zip">כווץ</string>
+	<string name="operator_add_shortcut">Add shortcut</string>
+	<string name="operator_add_shortcut_successful">Add shortcut %s successful</string>
+	<string name="operator_add_shortcut_failed">Add shortcut %s failed</string>
+	
+	<string name="hint_invalid_path">נתיב לא חוקי</string>
+	<string name="hint_set_home_successful">עכשיו עמוד הבית הוא %s</string>
+	<string name="hint_set_home_failed_1">לא ניתן להגדיר קובץ כעמוד הבית</string>
+	<string name="hint_set_home_failed_2">התיקיה לא קיימת</string>
+	<string name="send_failed">שליחת קבצים נכשלה</string>
+	<string name="send_failed_can_not_send_folder">לא ניתן לשלוח תיקיות</string>
+	<string name="hint_send_failed_2">ה Bluetooth לא פעיל</string>
+	
+	<string name="copy_files">מעתיק קבצים...</string>
+	<string name="copy_files_detail">מעתיק %s</string>
+	<string name="copy_complete">העתקה הושלמה</string>
+	<string name="copy_failed">העתקה נכשלה</string>
+	
+	<string name="move_files">מעביר קבצים...</string>
+	<string name="move_files_detail">מעביר %s</string>
+	<string name="move_complete">העברה הושלמה</string>
+	<string name="move_failed">העברה נכשלה</string>
+	
+	<string name="delete_files">מוחק קבצים...</string>
+	<string name="delete_files_single_confirm">אתה בטוח שאתה רוצה למחוק את %s?</string>
+	<string name="delete_files_multi_confirm">אתה בטוח שאתה רוצה למחוק %s קבצים?</string>
+	<string name="delete_files_detail">מוחק %s</string>
+	<string name="delete_complete">מחיקה הושלמה</string>
+	<string name="delete_failed">מחיקה נכשלה</string>
+	
+	<string name="new_folder_title">הכנס שם תיקיה</string>
+	<string name="new_folder_default_name">תיקיה חדשה</string>
+	<string name="new_folder_successful">התיקה נוצרה בהצלחה</string>
+	<string name="new_folder_failed">יצירת התיקיה נכשלה</string>
+	
+	<string name="rename_title">הכנס שם חדש</string>
+	<string name="rename_successful">השם שונה בהצלחה</string>
+	<string name="rename_failed">שינוי השם נכשל</string>
+	
+	<string name="side_main_storage_size">Storage: %s</string>
+	<string name="side_path_local">מועדפים</string>
+	<string name="side_path_local_home">עמוד הבית</string>
+	<string name="side_path_local_sdcard">כרטיס זיכרון</string>
+	<string name="side_path_local_dcim">DCIM</string>
+	<string name="side_path_local_download">הורדות</string>
+	<string name="side_path_local_movies">סרטים</string>
+	<string name="side_path_local_music">מוזיקה</string>
+	<string name="side_path_local_pictures">תמונות</string>
+	
+	<string name="side_others">שונות</string>
+	<string name="side_others_view">תצוגה</string>
+	<string name="side_others_order">סידור לפי</string>
+	<string name="side_others_preferences">העדפות</string>
+	<string name="side_others_exit">יציאה</string>
+	
+	<string name="select_mode_single">יחיד</string>
+	<string name="select_mode_multiple">מרובה</string>
+	
+	<string name="select_description">%s נבחרו</string>
+	<string name="select_description_copy">העתק %s פריטים אל …</string>
+	<string name="select_description_cut">גזור %s פריטים אל …</string>
+	
+	<string name="search_searching">מחפש...</string>
+	<string name="search_result_title">תוצאות חיפוש</string>
+	<string name="search_result_too_many_results">יותר מידי תוצאות, show only the first %s</string>
+	<string name="search_result_no_results">אין תוצאות</string>
+	
+	<string name="zip_open">פותח...</string>
+	<string name="zip_unzip">חלץ</string>
+	<string name="zip_unziping">מחלץ...</string>
+	<string name="zip_unzip_successful">החילוץ הושלם בהצלחה</string>
+	<string name="zip_unzip_failed">החילוץ נכשל</string>
+	<string name="zip_zip">כווץ</string>
+	<string name="zip_ziping">מכווץ...</string>
+	<string name="zip_zip_successful">כיווץ הושלם בהצלחה</string>
+	<string name="zip_zip_failed">הכיווץ נכשל</string>
+	
+	<string name="properties_general_path">נתיב</string>
+	<string name="properties_general_include">כולל</string>
+	<string name="properties_general_include_item">%s פריט/ים</string>
+	<string name="properties_general_include_file">%s קבצים</string>
+	<string name="properties_general_include_folder">%s תיקיות</string>
+	<string name="properties_general_size">גודל</string>
+	<string name="properties_general_permission">הרשאות</string>
+	<string name="properties_general_last_modified">שינוי אחרון</string>
+	<string name="properties_app_package_name">שם חבילה</string>
+	<string name="properties_app_minimum_version_required">גרסת מינימום נדרשת</string>
+	<string name="properties_app_version_code">קוד גרסא</string>
+	<string name="properties_app_version_name">שם גרסא</string>
+	<string name="properties_image_resolution">רזולוציה</string>
+	
+	<string name="setting_view">הצג הגדרות</string>
+	<string name="setting_view_show_hidden">הצג קבצים מוסתרים</string>
+	<string name="setting_view_show_hidden_tip">הצג קבצים מוסתרים שמתחילים בנקודה</string>
+	<string name="setting_view_show_thumbnail">הצג תמונות מוזערות</string>
+	<string name="setting_view_show_thumbnail_tip">השתמש בתמונה ממוזערת בשביל אייקון</string>
+	<string name="setting_view_clear_cache">ניקוי מטמון</string>
+	<string name="setting_view_clear_cache_tip">נקה נתוני מטמון(תמונות ממוזערות וכו\'.)</string>
+	<string name="setting_view_clear_cache_confirm">לנקות מטמון?</string>
+	<string name="setting_view_clear_cache_ing">מנקה מטמון...</string>
+	<string name="setting_view_order">סידור לפי</string>
+	<string name="setting_view_order2_asc">סדר עולה</string>
+	<string name="setting_view_order2_desc">סדר יורד</string>
+	<string name="setting_view_view">תצוגה</string>
+	
+	<string name="setting_ui_theme">ערכת נושא</string>
+	<string name="setting_ui_theme_tip">ערכת הנושא של ממשק המשתמש</string>
+	<string name="setting_ui_color">צבע</string>
+	<string name="setting_ui_color_tip">הצבע הראשי של ממשק המשתמש</string>
+	
+	<string name="setting_preferences">קביעת העדפות</string>
+	<string name="setting_preferences_home">תייקית עמוד הבית</string>
+	<string name="setting_preferences_useen">Language</string>
+	<string name="setting_preferences_useen_on_tip">English</string>
+	<string name="setting_preferences_useen_off_tip">System default language</string>
+	
+	<string name="setting_about">אודות</string>
+	
+	<string name="setting_about_feedback">Feedback</string>
+
+</resources>

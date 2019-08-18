@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="entries_list_setting_order">
+		<item>ファイル名</item>
+		<item>タイプ</item>
+		<item>サイズ</item>
+		<item>更新した</item>
+	</string-array>
+	<string-array name="entries_list_setting_view">
+		<item>リスト</item>
+		<item>アイコン</item>
+	</string-array>
+	<string-array name="entries_list_setting_ui_theme">
+		<item>光</item>
+		<item>ダーク</item>
+	</string-array>
+	<string-array name="entries_list_setting_ui_color">
+		<item>グリーン</item>
+		<item>ブルー</item>
+		<item>オレンジ</item>
+		<item>ピンク</item>
+		<item>赤</item>
+		<item>紫</item>
+	</string-array>
+</resources>

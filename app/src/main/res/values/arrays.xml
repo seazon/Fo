@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string-array name="entries_list_setting_order">
+		<item>Name</item>
+		<item>Type</item>
+		<item>Size</item>
+		<item>DateModified</item>
+	</string-array>
+	<string-array name="entriesvalue_list_setting_order">
+		<item>Name</item>
+		<item>Type</item>
+		<item>Size</item>
+		<item>DateModified</item>
+	</string-array>
+	<string-array name="entries_list_setting_view">
+		<item>List</item>
+		<item>Icons</item>
+	</string-array>
+	<string-array name="entriesvalue_list_setting_view">
+		<item>List</item>
+		<item>Icons</item>
+	</string-array>
+	<string-array name="entries_list_setting_ui_theme">
+		<item>Light</item>
+		<item>Dark</item>
+	</string-array>
+	<string-array name="entriesvalue_list_setting_ui_theme">
+	    <item>Light</item>
+		<item>Dark</item>
+	</string-array>
+	<string-array name="entries_list_setting_ui_color">
+		<item>Green</item>
+		<item>Blue</item>
+		<item>Orange</item>
+		<item>Pink</item>
+		<item>Red</item>
+		<item>Purple</item>
+	</string-array>
+	<string-array name="entriesvalue_list_setting_ui_color">
+	    <item>#8bc34a</item>
+		<item>#2196f3</item>
+	    <item>#ff9800</item>
+		<item>#e91e63</item>
+		<item>#f44336</item>
+		<item>#9c27b0</item>
+	</string-array>
+</resources>

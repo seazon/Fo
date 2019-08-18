@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="entries_list_setting_order">
+		<item>Tiêu đề</item>
+		<item>Định dạng</item>
+		<item>Kích cỡ</item>
+		<item>Lần sửa</item>
+	</string-array>
+	<string-array name="entries_list_setting_view">
+		<item>Danh sách</item>
+		<item>Dạng lưới</item>
+	</string-array>
+	<string-array name="entries_list_setting_ui_theme">
+		<item>Sáng</item>
+		<item>Tối</item>
+	</string-array>
+	<string-array name="entries_list_setting_ui_color">
+		<item>Xanh lá</item>
+		<item>Xanh dương</item>
+		<item>Cam</item>
+		<item>Hồng</item>
+		<item>Đỏ</item>
+		<item>Tím</item>
+	</string-array>
+</resources>

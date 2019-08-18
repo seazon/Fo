@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fo</string>
+    <string name="no_files">空文件夹</string>
+    <string name="permission_denied">没有权限</string>
+    
+	<string name="common_confirm">确认</string>
+	<string name="common_save">保存</string>
+	<string name="common_new">新建</string>
+	<string name="common_add">添加</string>
+	<string name="common_close">关闭</string>
+	<string name="common_cancel">取消</string>
+	<string name="common_search">搜索</string>
+	<string name="common_back">返回</string>
+	
+	<string name="operator">操作</string>
+	<string name="operator_select_all">全选</string>
+	<string name="operator_paste">黏贴</string>
+	<string name="operator_new_folder">新建文件夹</string>
+	<string name="operator_copy">复制</string>
+	<string name="operator_cut">剪切</string>
+	<string name="operator_delete">删除</string>
+	
+	<string name="operator_open_with">打开方式…</string>
+	<string name="operator_properties">属性</string>
+	<string name="operator_rename">重命名</string>
+	<string name="operator_send_by_bluetooth">通过蓝牙发送</string>
+	<string name="operator_send_by">发送 …</string>
+	<string name="operator_set_home">设为主目录</string>
+	<string name="operator_file_no_exist">文件不存在</string>
+	<string name="operator_add_favorites">加入收藏夹</string>
+	<string name="operator_add_favorites_successful">加入收藏夹成功</string>
+	<string name="operator_add_favorites_failed">加入收藏夹失败</string>
+	<string name="operator_add_favorites_failed_more_than_max">收藏数量不能超过%s个</string>
+	<string name="operator_del_favorites_confirm">从收藏夹删除 %s？</string>
+	<string name="operator_del_favorites_successful">从收藏夹删除成功</string>
+	<string name="operator_del_favorites_failed">从收藏夹删除失败</string>
+	<string name="operator_zip">压缩</string>
+	<string name="operator_add_shortcut">添加桌面快捷方式</string>
+	<string name="operator_add_shortcut_successful">添加桌面快捷方式 %s 成功</string>
+	<string name="operator_add_shortcut_failed">添加桌面快捷方式 %s 失败</string>
+	
+	<string name="hint_invalid_path">非法路径</string>
+	<string name="hint_set_home_successful">现在主目录是 %s</string>
+	<string name="hint_set_home_failed_1">不能设置文件为主目录</string>
+	<string name="hint_set_home_failed_2">文件夹不存在</string>
+	<string name="send_failed">发送文件失败</string>
+	<string name="send_failed_can_not_send_folder">不能发送文件夹</string>
+	<string name="hint_send_failed_2">没有找到蓝牙</string>
+	
+	<string name="copy_files">复制文件 …</string>
+	<string name="copy_files_detail">正在复制 %s</string>
+	<string name="copy_complete">复制成功</string>
+	<string name="copy_failed">复制失败</string>
+	
+	<string name="move_files">移动文件 …</string>
+	<string name="move_files_detail">正在移动 %s</string>
+	<string name="move_complete">移动成功</string>
+	<string name="move_failed">移动失败</string>
+	
+	<string name="delete_files">删除文件 …</string>
+	<string name="delete_files_single_confirm">确定删除 %s吗？</string>
+	<string name="delete_files_multi_confirm">确定删除 %s个文件吗？</string>
+	<string name="delete_files_detail">正在删除 %s</string>
+	<string name="delete_complete">删除成功</string>
+	<string name="delete_failed">删除失败</string>
+	
+	<string name="new_folder_title">输入文件夹名称</string>
+	<string name="new_folder_default_name">新建文件夹</string>
+	<string name="new_folder_successful">新建文件夹成功</string>
+	<string name="new_folder_failed">新建文件夹失败</string>
+	
+	<string name="rename_title">输入新的名称</string>
+	<string name="rename_successful">重命名成功</string>
+	<string name="rename_failed">重命名失败</string>
+
+	<string name="side_main_storage_size">存储: %s</string>
+	<string name="side_path_local">收藏夹</string>
+	<string name="side_path_local_home">主目录</string>
+	<string name="side_path_local_sdcard">SD卡</string>
+	<string name="side_path_local_dcim">DCIM</string>
+	<string name="side_path_local_download">下载</string>
+	<string name="side_path_local_movies">电影</string>
+	<string name="side_path_local_music">音乐</string>
+	<string name="side_path_local_pictures">图片</string>
+
+	<string name="side_others">其他</string>
+	<string name="side_others_view">视图</string>
+	<string name="side_others_order">排序</string>
+	<string name="side_others_preferences">设置</string>
+	<string name="side_others_exit">退出</string>
+	
+	<string name="select_mode_single">单选</string>
+	<string name="select_mode_multiple">多选</string>
+	
+	<string name="select_description">%s个已选</string>
+	<string name="select_description_copy">复制 %s个项目到 …</string>
+	<string name="select_description_cut">剪切 %s个项目到 …</string>
+	
+	<string name="search_searching">搜索文件 …</string>
+	<string name="search_result_title">搜索结果</string>
+	<string name="search_result_too_many_results">搜索结果太多，只显示%s条结果</string>
+	<string name="search_result_no_results">没有与搜索条件匹配的项目</string>
+	
+	<string name="zip_open">打开 …</string>
+	<string name="zip_unzip">解压</string>
+	<string name="zip_unziping">正在解压 …</string>
+	<string name="zip_unzip_successful">解压成功</string>
+	<string name="zip_unzip_failed">解压失败</string>
+	<string name="zip_zip">压缩</string>
+	<string name="zip_ziping">正在压缩 …</string>
+	<string name="zip_zip_successful">压缩成功</string>
+	<string name="zip_zip_failed">压缩失败</string>
+	
+	<string name="properties_general_path">位置</string>
+	<string name="properties_general_include">包含</string>
+	<string name="properties_general_include_item">%s个项目</string>
+	<string name="properties_general_include_file">%s个文件</string>
+	<string name="properties_general_include_folder">%s个文件夹</string>
+	<string name="properties_general_size">大小</string>
+	<string name="properties_general_permission">权限</string>
+	<string name="properties_general_last_modified">修改时间</string>
+	<string name="properties_app_package_name">包名</string>
+	<string name="properties_app_minimum_version_required">版本要求</string>
+	<string name="properties_app_version_code">版本号</string>
+	<string name="properties_app_version_name">版本名</string>
+	<string name="properties_image_resolution">分辨率</string>
+	
+	<string name="setting_view">视图设置</string>
+	<string name="setting_view_show_hidden">显示隐藏文件</string>
+	<string name="setting_view_show_hidden_tip">显示隐藏文件（点开头的文件）</string>
+	<string name="setting_view_show_thumbnail">显示缩略图</string>
+	<string name="setting_view_show_thumbnail_tip">使用缩略图来代替图标</string>
+	<string name="setting_view_clear_cache">清除缓存</string>
+	<string name="setting_view_clear_cache_tip">清除缓存数据（缩略图等）</string>
+	<string name="setting_view_clear_cache_confirm">清除缓存吗？</string>
+	<string name="setting_view_clear_cache_ing">清除缓存中 …</string>
+	<string name="setting_view_order">排序</string>
+	<string name="setting_view_order2_asc">升序</string>
+	<string name="setting_view_order2_desc">降序</string>
+	<string name="setting_view_view">视图</string>
+		
+	<string name="setting_ui_theme">主题</string>
+	<string name="setting_ui_theme_tip">用户界面的主题</string>
+	<string name="setting_ui_color">颜色</string>
+	<string name="setting_ui_color_tip">用户界面的主色调</string>
+	
+	<string name="setting_preferences">偏好设置</string>
+	<string name="setting_preferences_home">主目录</string>
+	<string name="setting_preferences_useen">语言</string>
+	<string name="setting_preferences_useen_on_tip">英语</string>
+	<string name="setting_preferences_useen_off_tip">系统默认语言</string>
+	
+	<string name="setting_about">关于</string>
+	
+	<string name="setting_about_feedback">反馈</string>
+	
+</resources>

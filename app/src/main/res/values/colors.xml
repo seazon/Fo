@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="transparent">#00000000</color>
+	
+	<color name="dark_bg">#222222</color>
+	<color name="dark_section_bg">#111111</color>
+	<color name="dark_text_primary">#c1c1c1</color>
+	<color name="dark_text_secondary">#808080</color>
+	<color name="dark_text_nav">#c1c1c1</color>
+	<color name="dark_section_divider">#000000</color>
+	<color name="dark_divider">#000000</color>
+	
+	<color name="light_bg">#e8e8e8</color>
+	<color name="light_text_primary">#000000</color>
+	<color name="light_text_secondary">#979797</color>
+	<color name="light_text_nav">#e8e8e8</color>
+	<color name="light_section_divider">#dadada</color>
+	<color name="light_divider">#d3d3d3</color>
+	
+</resources>

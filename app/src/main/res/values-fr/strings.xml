@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Fo</string>
+	<string name="no_files">Dossier vide</string>
+	<string name="permission_denied">Accès refusé</string>
+	
+	<string name="common_confirm">Confirmer</string>
+	<string name="common_save">Enregistrer</string>
+	<string name="common_new">Nouveau</string>
+	<string name="common_add">Ajouter</string>
+	<string name="common_close">Fermer</string>
+	<string name="common_cancel">Annuler</string>
+	<string name="common_search">Rechercher</string>
+	<string name="common_back">Retour</string>
+	
+	<string name="operator">Opération</string>
+	<string name="operator_select_all">Tout sélectionner</string>
+	<string name="operator_paste">Coller</string>
+	<string name="operator_new_folder">Nouveau dossier</string>
+	<string name="operator_copy">Copier</string>
+	<string name="operator_cut">Couper</string>
+	<string name="operator_delete">Supprimer</string>
+	
+	<string name="operator_open_with">Ouvrir avec…</string>
+	<string name="operator_properties">Propriétés</string>
+	<string name="operator_rename">Renommer</string>
+	<string name="operator_send_by_bluetooth">Envoyer par Bluetooth</string>
+	<string name="operator_send_by">Envoyer par…</string>
+	<string name="operator_set_home">Accueil</string>
+	<string name="operator_file_no_exist">Fichier non existant</string>
+	<string name="operator_add_favorites">Favori</string>
+	<string name="operator_add_favorites_successful">Ajout aux favoris réussi</string>
+	<string name="operator_add_favorites_failed">Échec ajout aux favoris</string>
+	<string name="operator_add_favorites_failed_more_than_max">Maximum de %s favoris déjà atteint</string>
+	<string name="operator_del_favorites_confirm">Supprimer %s des favoris ?</string>
+	<string name="operator_del_favorites_successful">Suppresion des favoris réussie</string>
+	<string name="operator_del_favorites_failed">Échec suppression des favoris</string>
+	<string name="operator_zip">Compresser</string>
+	<string name="operator_add_shortcut">Raccourci</string>
+	<string name="operator_add_shortcut_successful">Ajout du raccourci %s réussi</string>
+	<string name="operator_add_shortcut_failed">Échec ajout du raccourci %s</string>
+	
+	<string name="hint_invalid_path">Chemin invalide</string>
+	<string name="hint_set_home_successful">L\'accueil défini est %s</string>
+	<string name="hint_set_home_failed_1">Impossible de définir un fichier comme accueil</string>
+	<string name="hint_set_home_failed_2">Le dossier n\'existe pas</string>
+	<string name="send_failed">Échec envoi de fichiers</string>
+	<string name="send_failed_can_not_send_folder">Impossible d\'envoyer un dossier</string>
+	<string name="hint_send_failed_2">Le Bluetooth est désactivé</string>
+	
+	<string name="copy_files">Copie des fichiers…</string>
+	<string name="copy_files_detail">Copie de %s</string>
+	<string name="copy_complete">Copie réussie</string>
+	<string name="copy_failed">Échec de la copie</string>
+	
+	<string name="move_files">Déplacement des fichiers…</string>
+	<string name="move_files_detail">Déplacement de %s</string>
+	<string name="move_complete">Déplacement réussi</string>
+	<string name="move_failed">Échec du déplacement</string>
+	
+	<string name="delete_files">Suppression des fichiers…</string>
+	<string name="delete_files_single_confirm">Voulez-vous vraiment supprimer %s ?</string>
+	<string name="delete_files_multi_confirm">Voulez-vous vraiment supprimer %s fichiers ?</string>
+	<string name="delete_files_detail">Suppresion de %s</string>
+	<string name="delete_complete">Suppression réussie</string>
+	<string name="delete_failed">Échec de la suppression</string>
+	
+	<string name="new_folder_title">Saisir un nom</string>
+	<string name="new_folder_default_name">Nouveau dossier</string>
+	<string name="new_folder_successful">Création réussie</string>
+	<string name="new_folder_failed">Échec de la création</string>
+	
+	<string name="rename_title">Saisir un nouveau nom</string>
+	<string name="rename_successful">Renommé avec succès</string>
+	<string name="rename_failed">Non renommé</string>
+
+	<string name="side_main_storage_size">Stockage: %s</string>
+	<string name="side_path_local">Favoris</string>
+	<string name="side_path_local_home">Accueil</string>
+	<string name="side_path_local_sdcard">Carte SD</string>
+	<string name="side_path_local_dcim">DCIM</string>
+	<string name="side_path_local_download">Téléchargements</string>
+	<string name="side_path_local_movies">Films</string>
+	<string name="side_path_local_music">Musique</string>
+	<string name="side_path_local_pictures">Images</string>
+	
+	<string name="side_others">Autres</string>
+	<string name="side_others_view">Vue</string>
+	<string name="side_others_order">Trier</string>
+	<string name="side_others_preferences">Préférences</string>
+	<string name="side_others_exit">Quitter</string>
+	
+	<string name="select_mode_single">Simple</string>
+	<string name="select_mode_multiple">Multiple</string>
+	
+	<string name="select_description">%s selectionnés</string>
+	<string name="select_description_copy">Copier %s élément(s) vers…</string>
+	<string name="select_description_cut">Couper %s élément(s) vers…</string>
+	
+	<string name="search_searching">Recherche…</string>
+	<string name="search_result_title">Résultat de la recherche</string>
+	<string name="search_result_too_many_results">Trop de résultats, ne montrer que les %s premiers</string>
+	<string name="search_result_no_results">Aucun résultat</string>
+	
+	<string name="zip_open">Ouvrir…</string>
+	<string name="zip_unzip">Extraire</string>
+	<string name="zip_unziping">Extraction…</string>
+	<string name="zip_unzip_successful">Extraction réussie</string>
+	<string name="zip_unzip_failed">Échec de l\'extraction</string>
+	<string name="zip_zip">Compresser</string>
+	<string name="zip_ziping">Compression…</string>
+	<string name="zip_zip_successful">Compression réussie</string>
+	<string name="zip_zip_failed">Échec de la compression</string>
+	
+	<string name="properties_general_path">Chemin</string>
+	<string name="properties_general_include">Contenu</string>
+	<string name="properties_general_include_item">%s élément(s)</string>
+	<string name="properties_general_include_file">%s fichier(s)</string>
+	<string name="properties_general_include_folder">%s dossier(s)</string>
+	<string name="properties_general_size">Taille</string>
+	<string name="properties_general_permission">Permissions</string>
+	<string name="properties_general_last_modified">Dernière modification</string>
+	<string name="properties_app_package_name">Nom du paquet</string>
+	<string name="properties_app_minimum_version_required">Version minimum requise</string>
+	<string name="properties_app_version_code">Version de code</string>
+	<string name="properties_app_version_name">Numéro de version</string>
+	<string name="properties_image_resolution">Résolution</string>
+	
+	<string name="setting_view">Paramètres</string>
+	<string name="setting_view_show_hidden">Afficher les fichiers cachés</string>
+	<string name="setting_view_show_hidden_tip">Afficher les fichiers commençant par un point</string>
+	<string name="setting_view_show_thumbnail">Afficher les miniatures</string>
+	<string name="setting_view_show_thumbnail_tip">Utiliser les miniatures comme icônes</string>
+	<string name="setting_view_clear_cache">Effacer le cache</string>
+	<string name="setting_view_clear_cache_tip">Effacer les données en cache (miniatures, etc.)</string>
+	<string name="setting_view_clear_cache_confirm">Effacer le cache ?</string>
+	<string name="setting_view_clear_cache_ing">Suppression du cache…</string>
+	<string name="setting_view_order">Trier</string>
+	<string name="setting_view_order2_asc">Croissant</string>
+	<string name="setting_view_order2_desc">Décroissant</string>
+	<string name="setting_view_view">Vue</string>
+	
+	<string name="setting_ui_theme">Thème</string>
+	<string name="setting_ui_theme_tip">Thème de l\'interface</string>
+	<string name="setting_ui_color">Couleur</string>
+	<string name="setting_ui_color_tip">Couleur principale de l\'interface</string>
+	
+	<string name="setting_preferences">Paramètres de préférences</string>
+	<string name="setting_preferences_home">Accueil</string>
+	<string name="setting_preferences_useen">Langue</string>
+	<string name="setting_preferences_useen_on_tip">Anglais</string>
+	<string name="setting_preferences_useen_off_tip">Langue du système</string>
+	
+	<string name="setting_about">À Propos</string>
+	
+	<string name="setting_about_feedback">Feedback</string>
+
+</resources>

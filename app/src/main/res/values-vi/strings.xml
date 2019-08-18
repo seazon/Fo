@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Fo</string>
+	<string name="no_files">Thư mục trống</string>
+	<string name="permission_denied">Không được phép</string>
+	
+	<string name="common_confirm">Xác nhận</string>
+	<string name="common_save">Lưu</string>
+	<string name="common_new">Mới</string>
+	<string name="common_add">Thêm</string>
+	<string name="common_close">Đóng</string>
+	<string name="common_cancel">Hủy</string>
+	<string name="common_search">Tìm</string>
+	<string name="common_back">Trở lại</string>
+	
+	<string name="operator">Điều hành</string>
+	<string name="operator_select_all">Chọn tất cả</string>
+	<string name="operator_paste">Dán</string>
+	<string name="operator_new_folder">Thư mục mới</string>
+	<string name="operator_copy">Chép</string>
+	<string name="operator_cut">Cắt</string>
+	<string name="operator_delete">Xóa</string>
+	
+	<string name="operator_open_with">Mở bằng …</string>
+	<string name="operator_properties">Thuộc tính</string>
+	<string name="operator_rename">Đổi tên</string>
+	<string name="operator_send_by_bluetooth">Gửi qua Bluetooth</string>
+	<string name="operator_send_by">Gửi qua …</string>
+	<string name="operator_set_home">Đặt trang chủ</string>
+	<string name="operator_file_no_exist">Tệp không tồn tại</string>
+	<string name="operator_add_favorites">Thêm ưa thích</string>
+	<string name="operator_add_favorites_successful">Thêm ưa thích thành công</string>
+	<string name="operator_add_favorites_failed">Thêm ưa thích thất bại</string>
+	<string name="operator_add_favorites_failed_more_than_max">Số lượng ưa thích không quá %s</string>
+	<string name="operator_del_favorites_confirm">Xóa %s khỏi ưa thích?</string>
+	<string name="operator_del_favorites_successful">Xóa khỏi ưa thích thành công</string>
+	<string name="operator_del_favorites_failed">Xóa khỏi ưa thích thất bại</string>
+	<string name="operator_zip">Nén</string>
+	<string name="operator_add_shortcut">Thêm lối tắt</string>
+	<string name="operator_add_shortcut_successful">Thêm lối tắt %s thành công</string>
+	<string name="operator_add_shortcut_failed">Thêm lối tắt %s thất bại</string>
+	
+	<string name="hint_invalid_path">Đường dẫn không hợp lệ</string>
+	<string name="hint_set_home_successful">Trang chủ hiện tại là %s</string>
+	<string name="hint_set_home_failed_1">Không thể đặt tệp làm trang chủ</string>
+	<string name="hint_set_home_failed_2">Thư mục không tồn tại</string>
+	<string name="send_failed">Gửi tệp thất bại</string>
+	<string name="send_failed_can_not_send_folder">Không thể gửi thư mục</string>
+	<string name="hint_send_failed_2">Bluetooth không hoạt động</string>
+	
+	<string name="copy_files">Đang chép tệp …</string>
+	<string name="copy_files_detail">Đang chép %s</string>
+	<string name="copy_complete">Sao chép thành công</string>
+	<string name="copy_failed">Sao chép thất bại</string>
+	
+	<string name="move_files">Đang chuyển tệp …</string>
+	<string name="move_files_detail">Đang chuyển %s</string>
+	<string name="move_complete">Di chuyển thành công</string>
+	<string name="move_failed">Di chuyển thất bại</string>
+	
+	<string name="delete_files">Đang xóa tệp …</string>
+	<string name="delete_files_single_confirm">Bạn muốn xóa %s?</string>
+	<string name="delete_files_multi_confirm">Bạn muốn xóa %s tệp?</string>
+	<string name="delete_files_detail">Đang xóa %s</string>
+	<string name="delete_complete">Xóa thành công</string>
+	<string name="delete_failed">Xóa thất bại</string>
+	
+	<string name="new_folder_title">Điền tên thư mục</string>
+	<string name="new_folder_default_name">Thư mục mới</string>
+	<string name="new_folder_successful">Thêm thư mục mới thành công</string>
+	<string name="new_folder_failed">Thêm thư mục mới thất bại</string>
+	
+	<string name="rename_title">Điền tên mới</string>
+	<string name="rename_successful">Đổi tên thành công</string>
+	<string name="rename_failed">Đổi tên thất bại</string>
+
+	<string name="side_main_storage_size">Lưu trữ: %s</string>
+	<string name="side_path_local">Ưa thích</string>
+	<string name="side_path_local_home">Trang chủ</string>
+	<string name="side_path_local_sdcard">Thẻ SD</string>
+	<string name="side_path_local_dcim">DCIM</string>
+	<string name="side_path_local_download">Tải về</string>
+	<string name="side_path_local_movies">Phim</string>
+	<string name="side_path_local_music">Nhạc</string>
+	<string name="side_path_local_pictures">Ảnh</string>
+	
+	<string name="side_others">Cài đặt</string>
+	<string name="side_others_view">Chế độ xem</string>
+	<string name="side_others_order">Sắp xếp</string>
+	<string name="side_others_preferences">Thiết lập</string>
+	<string name="side_others_exit">Thoát</string>
+	
+	<string name="select_mode_single">Single</string>
+	<string name="select_mode_multiple">Multiple</string>
+	
+	<string name="select_description">%s được chọn</string>
+	<string name="select_description_copy">Chép %s đối tượng sang …</string>
+	<string name="select_description_cut">Cắt %s đối tượng sang …</string>
+	
+	<string name="search_searching">Đang tìm …</string>
+	<string name="search_result_title">Kết quả tìm kiếm</string>
+	<string name="search_result_too_many_results">Quá nhiều kết quả, chỉ hiện kết quả đầu %s</string>
+	<string name="search_result_no_results">Không có kết quả</string>
+	
+	<string name="zip_open">Mở …</string>
+	<string name="zip_unzip">Giải nén</string>
+	<string name="zip_unziping">Đang giải nén …</string>
+	<string name="zip_unzip_successful">Giải nén thành công</string>
+	<string name="zip_unzip_failed">Giải nén thất bại</string>
+	<string name="zip_zip">Nén</string>
+	<string name="zip_ziping">Đang nén …</string>
+	<string name="zip_zip_successful">Nén thành công</string>
+	<string name="zip_zip_failed">Nén thất bại</string>
+	
+	<string name="properties_general_path">Đường dẫn</string>
+	<string name="properties_general_include">Bao gồm</string>
+	<string name="properties_general_include_item">%s đối tượng</string>
+	<string name="properties_general_include_file">%s tệp</string>
+	<string name="properties_general_include_folder">%s thư mục</string>
+	<string name="properties_general_size">Kích cỡ</string>
+	<string name="properties_general_permission">Cho phép</string>
+	<string name="properties_general_last_modified">Lần sửa</string>
+	<string name="properties_app_package_name">Tên gói</string>
+	<string name="properties_app_minimum_version_required">Yêu cầu phiên bản tối thiểu</string>
+	<string name="properties_app_version_code">Mã phiên bản</string>
+	<string name="properties_app_version_name">Tên phiên bản</string>
+	<string name="properties_image_resolution">Độ phân giải</string>
+	
+	<string name="setting_view">Thiết lập hiển thị</string>
+	<string name="setting_view_show_hidden">Hiển thị tệp ẩn</string>
+	<string name="setting_view_show_hidden_tip">Tệp ẩn bắt đầu bằng dấu chấm</string>
+	<string name="setting_view_show_thumbnail">Hiển thị hình thu nhỏ</string>
+	<string name="setting_view_show_thumbnail_tip">Dùng hình thu nhỏ làm biểu tượng</string>
+	<string name="setting_view_clear_cache">Xóa bộ nhớ đệm</string>
+	<string name="setting_view_clear_cache_tip">Xóa dữ liệu đệm (hình thu nhỏ, v.v)</string>
+	<string name="setting_view_clear_cache_confirm">Xóa bộ nhớ đệm?</string>
+	<string name="setting_view_clear_cache_ing">Đang xóa bộ nhớ đệm …</string>
+	<string name="setting_view_order">Sắp xếp</string>
+	<string name="setting_view_order2_asc">Tăng dần</string>
+	<string name="setting_view_order2_desc">Giảm dần</string>
+	<string name="setting_view_view">Chế độ xem</string>
+	
+	<string name="setting_ui_theme">Chủ đề</string>
+	<string name="setting_ui_theme_tip">Chủ đề giao diện người dùng</string>
+	<string name="setting_ui_color">Màu nền</string>
+	<string name="setting_ui_color_tip">Màu nền giao diện người dùng</string>
+	
+	<string name="setting_preferences">Thiết lập hệ thống</string>
+	<string name="setting_preferences_home">Trang chủ</string>
+	<string name="setting_preferences_useen">Ngôn ngữ</string>
+	<string name="setting_preferences_useen_on_tip">English</string>
+	<string name="setting_preferences_useen_off_tip">Ngôn ngữ mặc định</string>
+	
+	<string name="setting_about">Giới thiệu</string>
+	
+	<string name="setting_about_feedback">Phản hồi</string>
+
+</resources>

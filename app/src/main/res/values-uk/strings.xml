@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Fo</string>
+	<string name="no_files">Порожня папка</string>
+	<string name="permission_denied">Доступ заборонено</string>
+	
+	<string name="common_confirm">Підтвердити</string>
+	<string name="common_save">Зберегти</string>
+	<string name="common_new">Створити</string>
+	<string name="common_add">Додати</string>
+	<string name="common_close">Закрити</string>
+	<string name="common_cancel">Скасувати</string>
+	<string name="common_search">Пошук</string>
+	<string name="common_back">Назад</string>
+	
+	<string name="operator">Оператор</string>
+	<string name="operator_select_all">Вибрати всі</string>
+	<string name="operator_paste">Вставити</string>
+	<string name="operator_new_folder">Нова папка</string>
+	<string name="operator_copy">Копіювати</string>
+	<string name="operator_cut">Вирізати</string>
+	<string name="operator_delete">Видалити</string>
+	
+	<string name="operator_open_with">Відкрити …</string>
+	<string name="operator_properties">Властивості</string>
+	<string name="operator_rename">Перейменувати</string>
+	<string name="operator_send_by_bluetooth">Відправити по Bluetooth</string>
+	<string name="operator_send_by">Відправити …</string>
+	<string name="operator_set_home">Зробити домашньою</string>
+	<string name="operator_file_no_exist">Файл не існує</string>
+	<string name="operator_add_favorites">Додати до закладок</string>
+	<string name="operator_add_favorites_successful">Додано успішно</string>
+	<string name="operator_add_favorites_failed">Операція завершилася невдало</string>
+	<string name="operator_add_favorites_failed_more_than_max">Максимальна кількість закладок - %s</string>
+	<string name="operator_del_favorites_confirm">Видалити %s із закладок?</string>
+	<string name="operator_del_favorites_successful">Видалення завершилося успішно</string>
+	<string name="operator_del_favorites_failed">Помилка при видаленні</string>
+	<string name="operator_zip">Архівація</string>
+	<string name="operator_add_shortcut">Створити ярлик</string>
+	<string name="operator_add_shortcut_successful">Ярлик %s успішно створено</string>
+	<string name="operator_add_shortcut_failed">Помилка при створенні ярлика %s</string>
+	
+	<string name="hint_invalid_path">Неіснуюча адреса</string>
+	<string name="hint_set_home_successful">Домівка - %s</string>
+	<string name="hint_set_home_failed_1">Неможливо встановити домашньою адресою</string>
+	<string name="hint_set_home_failed_2">Папка не існує</string>
+	<string name="send_failed">Помилка при відправці файлу(ів)</string>
+	<string name="send_failed_can_not_send_folder">Неможливо відправити папку(и)</string>
+	<string name="hint_send_failed_2">Bluetooth не активовано</string>
+	
+	<string name="copy_files">Копіювання …</string>
+	<string name="copy_files_detail">Копіюю %s</string>
+	<string name="copy_complete">Копіювання завершено</string>
+	<string name="copy_failed">Копіювання завершилося невдало</string>
+	
+	<string name="move_files">Переміщення …</string>
+	<string name="move_files_detail">Переміщення %s</string>
+	<string name="move_complete">Переміщення завершено</string>
+	<string name="move_failed">Переміщення завершилося невдало</string>
+	
+	<string name="delete_files">Видалення …</string>
+	<string name="delete_files_single_confirm">Ви впевнені, що хочете видалити %s?</string>
+	<string name="delete_files_multi_confirm">Ви впевнені, що хочете видалити %s ?</string>
+	<string name="delete_files_detail">Видалення %s</string>
+	<string name="delete_complete">Видалення завершено</string>
+	<string name="delete_failed">Видалення завершилося невдало</string>
+	
+	<string name="new_folder_title">Введіть назву папки</string>
+	<string name="new_folder_default_name">Нова папка</string>
+	<string name="new_folder_successful">Папка успішно створена</string>
+	<string name="new_folder_failed">Помилка при створенні папки</string>
+	
+	<string name="rename_title">Введіть нове ім\'я</string>
+	<string name="rename_successful">Перейменування успішно завершено</string>
+	<string name="rename_failed">Перейменування завершилося невдало</string>
+	
+	<string name="side_main_storage_size">Пам\'ять: %s</string>
+	<string name="side_path_local">Закладки</string>
+	<string name="side_path_local_home">Домівка</string>
+	<string name="side_path_local_sdcard">SD card</string>
+	<string name="side_path_local_dcim">DCIM</string>
+	<string name="side_path_local_download">Завантаження</string>
+	<string name="side_path_local_movies">Відео</string>
+	<string name="side_path_local_music">Музика</string>
+	<string name="side_path_local_pictures">Зображення</string>
+	
+	<string name="side_others">Решта</string>
+	<string name="side_others_view">Вигляд</string>
+	<string name="side_others_order">Сортування</string>
+	<string name="side_others_preferences">Налаштування</string>
+	<string name="side_others_exit">Вихід</string>
+	
+	<string name="select_mode_single">Одиничний вибір</string>
+	<string name="select_mode_multiple">Мультивибір</string>
+	
+	<string name="select_description">%s вибрано</string>
+	<string name="select_description_copy">Копіювати %s об\'єктів в …</string>
+	<string name="select_description_cut">Вирізати %s об\'єктів в …</string>
+	
+	<string name="search_searching">Пошук …</string>
+	<string name="search_result_title">Результати пошуку</string>
+	<string name="search_result_too_many_results">Показані перші %sт файлів</string>
+	<string name="search_result_no_results">Нічого не знайдено</string>
+	
+	<string name="zip_open">Відкрити …</string>
+	<string name="zip_unzip">Видобути</string>
+	<string name="zip_unziping">Видобування …</string>
+	<string name="zip_unzip_successful">Видобуто успішно</string>
+	<string name="zip_unzip_failed">Помилка при видобуванні</string>
+	<string name="zip_zip">Стиснути</string>
+	<string name="zip_ziping">Стиснення …</string>
+	<string name="zip_zip_successful">Стиснення успішно завершене</string>
+	<string name="zip_zip_failed">Помилка при стисненні</string>
+	
+	<string name="properties_general_path">Адреса</string>
+	<string name="properties_general_include">Вміст</string>
+	<string name="properties_general_include_item">%s елементів</string>
+	<string name="properties_general_include_file">%s файлів</string>
+	<string name="properties_general_include_folder">%s папок</string>
+	<string name="properties_general_size">Розмір</string>
+	<string name="properties_general_permission">Права</string>
+	<string name="properties_general_last_modified">Змінений</string>
+	<string name="properties_app_package_name">Ім\'я пакету</string>
+	<string name="properties_app_minimum_version_required">Мінімальна версія</string>
+	<string name="properties_app_version_code">Код версії</string>
+	<string name="properties_app_version_name">Назва версії</string>
+	<string name="properties_image_resolution">Розмір</string>
+	
+	<string name="setting_view">Вигляд</string>
+	<string name="setting_view_show_hidden">Приховані</string>
+	<string name="setting_view_show_hidden_tip">Показувати об\'єкти, ім\'я яких починається крапкою</string>
+	<string name="setting_view_show_thumbnail">Мініатюри</string>
+	<string name="setting_view_show_thumbnail_tip">Показувати мініатюри замість значків</string>
+	<string name="setting_view_clear_cache">Очистити кеш</string>
+	<string name="setting_view_clear_cache_tip">Очистити кеш (мініатюри і т.п)</string>
+	<string name="setting_view_clear_cache_confirm">Очистити кеш?</string>
+	<string name="setting_view_clear_cache_ing">Очищення кешу …</string>
+	<string name="setting_view_order">Сортування</string>
+	<string name="setting_view_order2_asc">Зростання</string>
+	<string name="setting_view_order2_desc">Спадання</string>
+	<string name="setting_view_view">Вигляд</string>
+	
+	<string name="setting_ui_theme">Тема</string>
+	<string name="setting_ui_theme_tip">Тема інтерфейсу</string>
+	<string name="setting_ui_color">Колір</string>
+	<string name="setting_ui_color_tip">Головний колір інтерфейсу</string>
+	
+	<string name="setting_preferences">Загальні</string>
+	<string name="setting_preferences_home">Домівка</string>
+	<string name="setting_preferences_useen">Мова</string>
+	<string name="setting_preferences_useen_on_tip">Англійська</string>
+	<string name="setting_preferences_useen_off_tip">Мова системи</string>
+	
+	<string name="setting_about">Про програму</string>
+	
+	<string name="setting_about_feedback">Feedback</string>
+	
+</resources>

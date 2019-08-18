@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="entries_list_setting_order">
+		<item>İsim</item>
+		<item>Tür</item>
+		<item>Boyut</item>
+		<item>Düzenlenme Tarihi</item>
+	</string-array>
+	<string-array name="entries_list_setting_view">
+		<item>Liste</item>
+		<item>İkonlar</item>
+	</string-array>
+	<string-array name="entries_list_setting_ui_theme">
+		<item>Açık</item>
+		<item>Koyu</item>
+	</string-array>
+	<string-array name="entries_list_setting_ui_color">
+		<item>Yeşil</item>
+		<item>Mavi</item>
+		<item>Turuncu</item>
+		<item>Pembe</item>
+		<item>Kırmızı</item>
+		<item>Mor</item>
+	</string-array>
+</resources>

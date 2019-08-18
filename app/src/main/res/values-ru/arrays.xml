@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="entries_list_setting_order">
+		<item>Имя</item>
+		<item>Тип</item>
+		<item>Размер</item>
+		<item>Изменён</item>
+	</string-array>
+	<string-array name="entries_list_setting_view">
+		<item>Список</item>
+		<item>Сетка</item>
+	</string-array>
+	<string-array name="entries_list_setting_ui_theme">
+		<item>Светлая</item>
+		<item>Тёмная</item>
+	</string-array>
+	<string-array name="entries_list_setting_ui_color">
+		<item>Зелёный</item>
+		<item>Голубой</item>
+		<item>Оранжевый</item>
+		<item>Розовый</item>
+		<item>Красный</item>
+		<item>Фиолетовый</item>
+	</string-array>
+</resources>

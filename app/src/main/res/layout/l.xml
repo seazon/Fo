@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical"
+    android:background="#000000"
+    >
+
+    <LinearLayout
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+	    android:layout_height="48dp"
+	    android:background="@drawable/bg_dark"
+	    >
+	    <TextView
+	        android:id="@+id/mainStorageSizeView"
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+		    android:layout_height="46dp"
+		    android:text="Main Storage: 100MB / 2GB"
+		    android:layout_gravity="bottom"
+		    android:gravity="bottom"
+		    android:singleLine="true"
+		    android:padding="8dp"
+		    android:textSize="16sp"
+		    />
+		<LinearLayout
+		    android:id="@+id/sideLine"
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+		    android:layout_height="2dp"
+		    >
+		</LinearLayout>
+	</LinearLayout>
+	
+    <ListView 
+        android:id="@+id/leftSideListView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/dark_divider"
+        android:dividerHeight="1dp"
+        android:cacheColorHint="#00000000"
+        android:fadingEdgeLength="4dp"
+        />
+    
+</LinearLayout>

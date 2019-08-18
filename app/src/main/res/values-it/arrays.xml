@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="entries_list_setting_order">
+		<item>Nome</item>
+		<item>Tipo</item>
+		<item>Dimensione</item>
+		<item>Data</item>
+	</string-array>
+	<string-array name="entries_list_setting_view">
+		<item>Elenco</item>
+		<item>Icone</item>
+	</string-array>
+	<string-array name="entries_list_setting_ui_theme">
+		<item>Chiaro</item>
+		<item>Scuro</item>
+	</string-array>
+	<string-array name="entries_list_setting_ui_color">
+		<item>Verde</item>
+		<item>Azzurro</item>
+		<item>Arancione</item>
+		<item>Rosa</item>
+		<item>Rosso</item>
+		<item>Viola</item>
+	</string-array>
+</resources>

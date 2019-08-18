@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fo</string>
+    <string name="no_files">Prázdná složka</string>
+    <string name="permission_denied">Přístup odepřen</string>
+
+    <string name="common_confirm">Potvrdit</string>
+    <string name="common_save">Uložit</string>
+    <string name="common_new">Nový</string>
+    <string name="common_add">Přidat</string>
+    <string name="common_close">Zavřít</string>
+    <string name="common_cancel">Zrušit</string>
+    <string name="common_search">Hledat</string>
+    <string name="common_back">Zpět</string>
+
+    <string name="operator">Operace</string>
+    <string name="operator_select_all">Vybrat vše</string>
+    <string name="operator_paste">Vložit</string>
+    <string name="operator_new_folder">Nová složka</string>
+    <string name="operator_copy">Kopírovat</string>
+    <string name="operator_cut">Vyjmout</string>
+    <string name="operator_delete">Smazat</string>
+
+    <string name="operator_open_with">Otevřít pomocí…</string>
+    <string name="operator_properties">Podrobnosti</string>
+    <string name="operator_rename">Přejmenovat</string>
+    <string name="operator_send_by_bluetooth">Odeslat pomocí Bluetooth</string>
+    <string name="operator_send_by">Odeslat pomocí…</string>
+    <string name="operator_set_home">Nastavit jako Domácí složku</string>
+    <string name="operator_file_no_exist">Soubor neexistuje</string>
+    <string name="operator_add_favorites">Přidat do záložek</string>
+    <string name="operator_add_favorites_successful">Přidání do záložek bylo úspěšné</string>
+    <string name="operator_add_favorites_failed">Přidání do záložek se nezdařilo</string>
+    <string name="operator_add_favorites_failed_more_than_max">Oblíbené číslo není větší než %s</string>
+    <string name="operator_del_favorites_confirm">Odstranit %s ze záložek?</string>
+    <string name="operator_del_favorites_successful">Záložka odstraněna</string>
+    <string name="operator_del_favorites_failed">Odstranění záložky se nezdařilo</string>
+    <string name="operator_zip">Komprimovat</string>
+    <string name="operator_add_shortcut">Vytvořit zástupce</string>
+    <string name="operator_add_shortcut_successful">Zástupce „%s“ vytvořen</string>
+    <string name="operator_add_shortcut_failed">Zástupce „%s“ se nepodařilo vytvořit</string>
+
+    <string name="hint_invalid_path">Chybná cesta</string>
+    <string name="hint_set_home_successful">Domácí složkou je nyní %s</string>
+    <string name="hint_set_home_failed_1">Soubor nelze nastavit jako Domácí.</string>
+    <string name="hint_set_home_failed_2">Nelze nastavit jako Domácí.</string>
+    <string name="send_failed">Odeslání souborů se nezdařilo</string>
+    <string name="send_failed_can_not_send_folder">Složku nelze odeslat</string>
+    <string name="hint_send_failed_2">Bluetooth není zapnuto</string>
+
+    <string name="copy_files">Kopírování souborů…</string>
+    <string name="copy_files_detail">Kopírování %s</string>
+    <string name="copy_complete">Kopírování dokončeno</string>
+    <string name="copy_failed">Kopírování se nezdařilo</string>
+
+    <string name="move_files">Přesouvání souborů…</string>
+    <string name="move_files_detail">Přesouvání %s</string>
+    <string name="move_complete">Přesouvání dokončeno</string>
+    <string name="move_failed">Přesouvání se nezdařilo</string>
+
+    <string name="delete_files">Odstraňování souborů…</string>
+    <string name="delete_files_single_confirm">Opravdu chceš odstranit %s?</string>
+    <string name="delete_files_multi_confirm">Opravdu chceš vybrané soubory (%s) odstranit?</string>
+    <string name="delete_files_detail">Odstraňování %s</string>
+    <string name="delete_complete">Odstraňování dokončeno</string>
+    <string name="delete_failed">Odstraňování se nezdařilo</string>
+
+    <string name="new_folder_title">Zadej název složky</string>
+    <string name="new_folder_default_name">Nová složka</string>
+    <string name="new_folder_successful">Složka byla úspěšně vytvořena</string>
+    <string name="new_folder_failed">Vytvoření složky se nezdařilo</string>
+
+    <string name="rename_title">Zadej nový název</string>
+    <string name="rename_successful">Přejmenování bylo úspěšné</string>
+    <string name="rename_failed">Přejmenování se nezdařilo</string>
+
+    <string name="side_main_storage_size">Úložiště: %s</string>
+    <string name="side_path_local">Záložky</string>
+    <string name="side_path_local_home">Domov</string>
+    <string name="side_path_local_sdcard">SD karta</string>
+    <string name="side_path_local_dcim">Fotky</string>
+    <string name="side_path_local_download">Stahování</string>
+    <string name="side_path_local_movies">Videa</string>
+    <string name="side_path_local_music">Hudba</string>
+    <string name="side_path_local_pictures">Obrázky</string>
+
+    <string name="side_others">Ostatní</string>
+    <string name="side_others_view">Přepnout zobrazení</string>
+    <string name="side_others_order">Seřadit</string>
+    <string name="side_others_preferences">Nastavení</string>
+    <string name="side_others_exit">Ukončit</string>
+
+    <string name="select_mode_single">Jednotlivý</string>
+    <string name="select_mode_multiple">Vícenásobný</string>
+
+    <string name="select_description">%s vybráno</string>
+    <string name="select_description_copy">Zkopírovat položky (%s) do…</string>
+    <string name="select_description_cut">Přesunout položky (%s) do…</string>
+
+    <string name="search_searching">Vyhledávání…</string>
+    <string name="search_result_title">Výsledky hledání</string>
+    <string name="search_result_too_many_results">Příliš mnoho výsledků, zobrazeno bude jen prvních %s</string>
+    <string name="search_result_no_results">Nic nenalezeno</string>
+
+    <string name="zip_open">Otevřít…</string>
+    <string name="zip_unzip">Rozbalit</string>
+    <string name="zip_unziping">Rozbalování…</string>
+    <string name="zip_unzip_successful">Rozbalování dokončeno</string>
+    <string name="zip_unzip_failed">Rozbalování se nezdařilo</string>
+    <string name="zip_zip">Komprimovat</string>
+    <string name="zip_ziping">Komprimování…</string>
+    <string name="zip_zip_successful">Komprimace dokončena</string>
+    <string name="zip_zip_failed">Komprimace se nezdařila</string>
+
+    <string name="properties_general_path">Umístění</string>
+    <string name="properties_general_include">Obsahuje</string>
+    <string name="properties_general_include_item">%s položek</string>
+    <string name="properties_general_include_file">%s souborů</string>
+    <string name="properties_general_include_folder">%s složek</string>
+    <string name="properties_general_size">Velikost</string>
+    <string name="properties_general_permission">Oprávnění</string>
+    <string name="properties_general_last_modified">Naposledy změněno</string>
+    <string name="properties_app_package_name">Název balíčku</string>
+    <string name="properties_app_minimum_version_required">Minimální požadovaná verze</string>
+    <string name="properties_app_version_code">Kód verze</string>
+    <string name="properties_app_version_name">Název verze</string>
+    <string name="properties_image_resolution">Rozlišení</string>
+
+    <string name="setting_view">Nastavení zobrazení</string>
+    <string name="setting_view_show_hidden">Zobrazovat skryté soubory</string>
+    <string name="setting_view_show_hidden_tip">Zobrazovat skryté soubory začínající tečkou</string>
+    <string name="setting_view_show_thumbnail">Zobrazovat náhledy</string>
+    <string name="setting_view_show_thumbnail_tip">Používat náhledy místo ikon</string>
+    <string name="setting_view_clear_cache">Vyčistit mezipaměť</string>
+    <string name="setting_view_clear_cache_tip">Smazat data vyrovnávací paměti (náhledy apod.)</string>
+    <string name="setting_view_clear_cache_confirm">Vyprázdnit mezipaměť?</string>
+    <string name="setting_view_clear_cache_ing">Čištění mezipaměti…</string>
+    <string name="setting_view_order">Řazení</string>
+    <string name="setting_view_order2_asc">Vzestupně</string>
+    <string name="setting_view_order2_desc">Sestupně</string>
+    <string name="setting_view_view">Zobrazit</string>
+
+    <string name="setting_ui_theme">Motiv vzhledu</string>
+    <string name="setting_ui_theme_tip">Vzhled uživatelského rozhraní</string>
+    <string name="setting_ui_color">Barva</string>
+    <string name="setting_ui_color_tip">Hlavní barva uživatelského rozhraní</string>
+
+    <string name="setting_preferences">Nastavení předvoleb</string>
+    <string name="setting_preferences_home">Domácí složka</string>
+    <string name="setting_preferences_useen">Jazyk</string>
+    <string name="setting_preferences_useen_on_tip">Angličtina</string>
+    <string name="setting_preferences_useen_off_tip">Podle nastavení systému</string>
+
+    <string name="setting_about">O aplikaci</string>
+
+    <string name="setting_about_feedback">Zpětná vazba</string>
+
+</resources>

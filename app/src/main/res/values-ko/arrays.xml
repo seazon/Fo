@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="entries_list_setting_order">
+		<item>"이름"</item>
+		<item>"유형"</item>
+		<item>"크기"</item>
+		<item>"날짜 수정"</item>
+	</string-array>
+	<string-array name="entries_list_setting_view">
+		<item>"목록"</item>
+		<item>"아이콘"</item>
+	</string-array>
+	<string-array name="entries_list_setting_ui_theme">
+		<item>"밝은"</item>
+		<item>"어두운"</item>
+	</string-array>
+	<string-array name="entries_list_setting_ui_color">
+		<item>"녹색"</item>
+		<item>"파랑색"</item>
+		<item>"오랜지"</item>
+		<item>"핑크"</item>
+		<item>"빨강"</item>
+		<item>"자"</item>
+	</string-array>
+</resources>

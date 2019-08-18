@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">"Fo"</string>
+    <string name="no_files">"Άδειος φάκελος"</string>
+    <string name="permission_denied">"Άδεια απορρίφθηκε"</string>
+    
+	<string name="common_confirm">"Επιβεβαίωση"</string>
+	<string name="common_save">"Αποθήκευση"</string>
+	<string name="common_new">"Νέο"</string>
+	<string name="common_add">"Προσθήκη"</string>
+	<string name="common_close">"Κλείσιμο"</string>
+	<string name="common_cancel">"Ακύρωση"</string>
+	<string name="common_search">"Αναζήτηση"</string>
+	<string name="common_back">Πίσω</string>
+	
+	<string name="operator">"Χειριστής"</string>
+	<string name="operator_select_all">Επιλογή όλων</string>
+	<string name="operator_paste">"επικόλληση"</string>
+	<string name="operator_new_folder">"Νέος φάκελος"</string>
+	<string name="operator_copy">"Αντιγραφή"</string>
+	<string name="operator_cut">"Αποκοπή"</string>
+	<string name="operator_delete">"Διαγραφή"</string>
+	
+	<string name="operator_open_with">Άνοιξε με …</string>
+	<string name="operator_properties">"Ιδιότητες"</string>
+	<string name="operator_rename">"Ξανά ονόμασε"</string>
+	<string name="operator_send_by_bluetooth">"Αποστολή μέσω Bluetooth"</string>
+	<string name="operator_send_by">"Πρόσθεσε στα Αγαπημένα …"</string>
+	<string name="operator_set_home">"Ορισμός ως Αρχική Σελίδα"</string>
+	<string name="operator_file_no_exist">Ο Φάκελος δεν υπάρχει</string>
+	<string name="operator_add_favorites">"Προσθήκη αγαπημένα"</string>
+	<string name="operator_add_favorites_successful">"Προσθήκη στα αγαπημένα επιτυχής"</string>
+	<string name="operator_add_favorites_failed">"Προσθήκη στα αγαπημένα απέτυχε"</string>
+	<string name="operator_add_favorites_failed_more_than_max">"Μπορεί να μην υπερβαίνει τους %s"</string>
+	<string name="operator_del_favorites_confirm">"Διαγραφή %s από τα Αγαπημένα;"</string>
+	<string name="operator_del_favorites_successful">"Διαγραφή από Αγαπημένα επιτυχής"</string>
+	<string name="operator_del_favorites_failed">"Διαγραφή από Αγαπημένα απέτυχε"</string>
+	<string name="operator_zip">"Συμπίεση"</string>
+	<string name="operator_add_shortcut">Προσθήκη συντόμευσης</string>
+	<string name="operator_add_shortcut_successful">Προσθήκη συντόμευσης %s επιτυχημένη</string>
+	<string name="operator_add_shortcut_failed">Προσθήκη συντόμευσης %s απέτυχε</string>
+	
+	<string name="hint_invalid_path">"Μη έγκυρη διαδρομή"</string>
+	<string name="hint_set_home_successful">"Τώρα το σπίτι είναι %s"</string>
+	<string name="hint_set_home_failed_1">"Δεν μπορεί να οριστεί ως αρχείο σπίτι"</string>
+	<string name="hint_set_home_failed_2">"Ο κατάλογος δεν υπάρχει"</string>
+	<string name="send_failed">Αποστολή φακέλου(ων) απέτυχε</string>
+	<string name="send_failed_can_not_send_folder">"Δεν μπορείτε να στείλετε φάκελο (ους)"</string>
+	<string name="hint_send_failed_2">"Το Bluetooth είναι ανενεργό"</string>
+	
+	<string name="copy_files">"Αντιγραφή αρχείων"</string>
+	<string name="copy_files_detail">"Αντιγραφή %s"</string>
+	<string name="copy_complete">"Αντιγραφή ολοκληρώθηκε."</string>
+	<string name="copy_failed">Αντιγραφή απέτυχε</string>
+	
+	<string name="move_files">"Μετακίνηση αρχείων …"</string>
+	<string name="move_files_detail">"Μετακίνηση %s"</string>
+	<string name="move_complete">"Μετακινήση ολοκληρώθηκε"</string>
+	<string name="move_failed">Μετακίνηση απέτυχε</string>
+	
+	<string name="delete_files">"Διαγραφή αρχείων …"</string>
+	<string name="delete_files_single_confirm">"Είστε σίγουροι για τη διαγραφή %s ;"</string>
+	<string name="delete_files_multi_confirm">"Είστε σίγουροι για τη διαγραφή %s αρχεία;"</string>
+	<string name="delete_files_detail">"Διαγραφή %s"</string>
+	<string name="delete_complete">"Διαγραφή ολοκληρώθηκε"</string>
+	<string name="delete_failed">Διαγραφή απέτυχε</string>
+	
+	<string name="new_folder_title">"Ονομάστε το φάκελο"</string>
+	<string name="new_folder_default_name">"Νέος φάκελος"</string>
+	<string name="new_folder_successful">"Νέος φάκελος επιτυχής"</string>
+	<string name="new_folder_failed">"Νέος φάκελος απέτυχε"</string>
+	
+	<string name="rename_title">"Είσοδος νέου ονόματος"</string>
+	<string name="rename_successful">"Μετονομασία επιτυχής"</string>
+	<string name="rename_failed">"Μετονομασία απέτυχε"</string>
+
+	<string name="side_main_storage_size">αποθήκευση: %s</string>
+	<string name="side_path_local">"Αγαπημένα"</string>
+	<string name="side_path_local_home">"Αρχική"</string>
+	<string name="side_path_local_sdcard">"Κάρτα SD"</string>
+	<string name="side_path_local_dcim">"DCIM"</string>
+	<string name="side_path_local_download">"Λήψη"</string>
+	<string name="side_path_local_movies">"Ταινίες"</string>
+	<string name="side_path_local_music">"μουσική"</string>
+	<string name="side_path_local_pictures">"εικόνες"</string>
+	
+	<string name="side_others">"Άλλα"</string>
+	<string name="side_others_view">"Εμφάνιση"</string>
+	<string name="side_others_order">"Κατάταξη"</string>
+	<string name="side_others_preferences">"Προτιμήσεις"</string>
+	<string name="side_others_exit">"Έξοδος"</string>
+	
+	<string name="select_mode_single">"Άγαμος"</string>
+	<string name="select_mode_multiple">"Πολλαπλούς"</string>
+	
+	<string name="select_description">"%s επιλέγεται"</string>
+	<string name="select_description_copy">"Αντιγράψτε %s αντικείμενο (α) να …"</string>
+	<string name="select_description_cut">"Κόψτε %s αντικείμενο (α) να …"</string>
+	
+	<string name="search_searching">"Αναζήτηση …"</string>
+	<string name="search_result_title">"Αποτέλεσμα αναζήτησης"</string>
+	<string name="search_result_too_many_results">"Πάρα πολλά αποτελέσματα, δείχνουν μόνο το πρώτο %s"</string>
+	<string name="search_result_no_results">"Δεν υπάρχουν αποτελέσματα"</string>
+	
+	<string name="zip_open">"ανοίγω"</string>
+	<string name="zip_unzip">"Εξάγετε"</string>
+	<string name="zip_unziping">"Εξαγωγή …"</string>
+	<string name="zip_unzip_successful">"Απόσπασμα επιτυχής"</string>
+	<string name="zip_unzip_failed">"Απόσπασμα απέτυχε"</string>
+	<string name="zip_zip">"Συμπίεση"</string>
+	<string name="zip_ziping">"Συμπίεση …"</string>
+	<string name="zip_zip_successful">"Συμπίεση επιτυχής"</string>
+	<string name="zip_zip_failed">"Συμπίεση απέτυχε"</string>
+    
+	<string name="properties_general_path">"Διαδρομή"</string>
+	<string name="properties_general_include">"Να συμπεριληφθεί"</string>
+	<string name="properties_general_include_item">"%s item (s)"</string>
+	<string name="properties_general_include_file">"%s file (s)"</string>
+	<string name="properties_general_include_folder">"%s φάκελο (ες)"</string>
+	<string name="properties_general_size">"Μέγεθος"</string>
+	<string name="properties_general_permission">"Άδεια"</string>
+	<string name="properties_general_last_modified">"Τελευταία τροποποίηση"</string>
+	<string name="properties_app_package_name">"Πακέτο όνομα"</string>
+	<string name="properties_app_minimum_version_required">"Ελάχιστη έκδοση απαιτείται"</string>
+	<string name="properties_app_version_code">"Έκδοση κώδικα"</string>
+	<string name="properties_app_version_name">"Έκδοση όνομα"</string>
+	<string name="properties_image_resolution">"Ανάλυση"</string>
+	
+	<string name="setting_view">"Ρύθμιση εμφάνισης"</string>
+	<string name="setting_view_show_hidden">"Δείξε κρυμμένο φάκελο"</string>
+	<string name="setting_view_show_hidden_tip">"Δείξε κρυμμένο φάκελο στην Αρχή"</string>
+	<string name="setting_view_show_thumbnail">"Δείξε thumbnail"</string>
+	<string name="setting_view_show_thumbnail_tip">"Χρησιμοποιώντας το thumbnail ως εικονίδιο"</string>
+	<string name="setting_view_clear_cache">"Εκκαθάριση προσωρινής μνήμης"</string>
+	<string name="setting_view_clear_cache_tip">"Καταργήστε τα δεδομένα cache (μικρογραφίες, κλπ.)"</string>
+	<string name="setting_view_clear_cache_confirm">"Εκκαθάριση προσωρινής μνήμης"</string>
+	<string name="setting_view_clear_cache_ing">"Εκκαθάριση της προσωρινής μνήμης …"</string>
+	<string name="setting_view_order">"Κατάταξη"</string>
+	<string name="setting_view_order2_asc">"ASC"</string>
+	<string name="setting_view_order2_desc">"ΠΕΡ"</string>
+	<string name="setting_view_view">"προβολές"</string>
+	
+	<string name="setting_ui_theme">"Θέμα"</string>
+	<string name="setting_ui_theme_tip">"Το θέμα του UI"</string>
+	<string name="setting_ui_color">"Χρώμα"</string>
+	<string name="setting_ui_color_tip">"Το κύριο χρώμα του UI"</string>
+	
+	<string name="setting_preferences">"Ρυθμίσεις προτιμήσεων"</string>
+	<string name="setting_preferences_home">"Κατάλογος Αρχικής"</string>
+	<string name="setting_preferences_useen">Language</string>
+	<string name="setting_preferences_useen_on_tip">English</string>
+	<string name="setting_preferences_useen_off_tip">System default language</string>
+	
+	<string name="setting_about">"Σχετικά"</string>
+	
+	<string name="setting_about_feedback">Feedback</string>
+	
+</resources>

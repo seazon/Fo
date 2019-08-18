@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Fo</string>
+	<string name="no_files">Empty folder</string>
+	<string name="permission_denied">Permission denied</string>
+	
+	<string name="common_confirm">Confirm</string>
+	<string name="common_save">Save</string>
+	<string name="common_new">New</string>
+	<string name="common_add">Add</string>
+	<string name="common_close">Close</string>
+	<string name="common_cancel">Cancel</string>
+	<string name="common_search">Search</string>
+	<string name="common_back">Back</string>
+	
+	<string name="operator">Operator</string>
+	<string name="operator_select_all">Select All</string>
+	<string name="operator_paste">Paste</string>
+	<string name="operator_new_folder">New Folder</string>
+	<string name="operator_copy">Copy</string>
+	<string name="operator_cut">Cut</string>
+	<string name="operator_delete">Delete</string>
+	
+	<string name="operator_open_with">Open with …</string>
+	<string name="operator_properties">Properties</string>
+	<string name="operator_rename">Rename</string>
+	<string name="operator_send_by_bluetooth">Send by Bluetooth</string>
+	<string name="operator_send_by">Send by …</string>
+	<string name="operator_set_home">Set as Home</string>
+	<string name="operator_file_no_exist">File not exists</string>
+	<string name="operator_add_favorites">Add Favorites</string>
+	<string name="operator_add_favorites_successful">Add to Favorites successful</string>
+	<string name="operator_add_favorites_failed">Add to Favorites failed</string>
+	<string name="operator_add_favorites_failed_more_than_max">Favorite number is not more than %s</string>
+	<string name="operator_del_favorites_confirm">Delete %s from Favorites?</string>
+	<string name="operator_del_favorites_successful">Delete from Favorites successful</string>
+	<string name="operator_del_favorites_failed">Delete from Favorites failed</string>
+	<string name="operator_zip">Compress</string>
+	<string name="operator_add_shortcut">Add shortcut</string>
+	<string name="operator_add_shortcut_successful">Add shortcut %s successful</string>
+	<string name="operator_add_shortcut_failed">Add shortcut %s failed</string>
+	
+	<string name="hint_invalid_path">Invalid path</string>
+	<string name="hint_set_home_successful">Now home is %s</string>
+	<string name="hint_set_home_failed_1">Can not set file as home</string>
+	<string name="hint_set_home_failed_2">The directory does not exist</string>
+	<string name="send_failed">Send file(s) failed</string>
+	<string name="send_failed_can_not_send_folder">Can not send folder(s)</string>
+	<string name="hint_send_failed_2">Bluetooth is inactive</string>
+	
+	<string name="copy_files">Copying files …</string>
+	<string name="copy_files_detail">Copying %s</string>
+	<string name="copy_complete">Copy completed</string>
+	<string name="copy_failed">Copy failed</string>
+	
+	<string name="move_files">Moving files …</string>
+	<string name="move_files_detail">Moving %s</string>
+	<string name="move_complete">Move completed</string>
+	<string name="move_failed">Move failed</string>
+	
+	<string name="delete_files">Deleting files …</string>
+	<string name="delete_files_single_confirm">Are you sure to delete %s?</string>
+	<string name="delete_files_multi_confirm">Are you sure to delete %s files?</string>
+	<string name="delete_files_detail">Deleting %s</string>
+	<string name="delete_complete">Delete completed</string>
+	<string name="delete_failed">Delete failed</string>
+	
+	<string name="new_folder_title">Input folder name</string>
+	<string name="new_folder_default_name">New Folder</string>
+	<string name="new_folder_successful">New folder successful</string>
+	<string name="new_folder_failed">New folder failed</string>
+	
+	<string name="rename_title">Input new name</string>
+	<string name="rename_successful">Rename successful</string>
+	<string name="rename_failed">Rename failed</string>
+
+	<string name="side_main_storage_size">Storage: %s</string>
+	<string name="side_path_local">Favorites</string>
+	<string name="side_path_local_home">Home</string>
+	<string name="side_path_local_sdcard">SD card</string>
+	<string name="side_path_local_dcim">DCIM</string>
+	<string name="side_path_local_download">Download</string>
+	<string name="side_path_local_movies">Movies</string>
+	<string name="side_path_local_music">Music</string>
+	<string name="side_path_local_pictures">Pictures</string>
+	
+	<string name="side_others">Others</string>
+	<string name="side_others_view">View</string>
+	<string name="side_others_order">Order</string>
+	<string name="side_others_preferences">Preferences</string>
+	<string name="side_others_exit">Exit</string>
+	
+	<string name="select_mode_single">Single</string>
+	<string name="select_mode_multiple">Multiple</string>
+	
+	<string name="select_description">%s selected</string>
+	<string name="select_description_copy">Copy %s item(s) to …</string>
+	<string name="select_description_cut">Cut %s item(s) to …</string>
+	
+	<string name="search_searching">Searching …</string>
+	<string name="search_result_title">Search Result</string>
+	<string name="search_result_too_many_results">Too many results, show only the first %s</string>
+	<string name="search_result_no_results">No results</string>
+	
+	<string name="zip_open">Open …</string>
+	<string name="zip_unzip">Extract</string>
+	<string name="zip_unziping">Extracting …</string>
+	<string name="zip_unzip_successful">Extract successful</string>
+	<string name="zip_unzip_failed">Extract failed</string>
+	<string name="zip_zip">Compress</string>
+	<string name="zip_ziping">Compressing …</string>
+	<string name="zip_zip_successful">Compress successful</string>
+	<string name="zip_zip_failed">Compress failed</string>
+	
+	<string name="properties_general_path">Path</string>
+	<string name="properties_general_include">Include</string>
+	<string name="properties_general_include_item">%s item(s)</string>
+	<string name="properties_general_include_file">%s file(s)</string>
+	<string name="properties_general_include_folder">%s folder(s)</string>
+	<string name="properties_general_size">Size</string>
+	<string name="properties_general_permission">Permission</string>
+	<string name="properties_general_last_modified">Last modified</string>
+	<string name="properties_app_package_name">Package name</string>
+	<string name="properties_app_minimum_version_required">Minimum version required</string>
+	<string name="properties_app_version_code">Version code</string>
+	<string name="properties_app_version_name">Version name</string>
+	<string name="properties_image_resolution">Resolution</string>
+	
+	<string name="setting_view">View setting</string>
+	<string name="setting_view_show_hidden">Show hidden file</string>
+	<string name="setting_view_show_hidden_tip">Show hidden file start with point</string>
+	<string name="setting_view_show_thumbnail">Show thumbnail</string>
+	<string name="setting_view_show_thumbnail_tip">Using the thumbnail as an icon</string>
+	<string name="setting_view_clear_cache">Clear cache</string>
+	<string name="setting_view_clear_cache_tip">Clear the cache data(thumbnails, etc.)</string>
+	<string name="setting_view_clear_cache_confirm">Clear cache?</string>
+	<string name="setting_view_clear_cache_ing">Clearing cache …</string>
+	<string name="setting_view_order">Order</string>
+	<string name="setting_view_order2_asc">ASC</string>
+	<string name="setting_view_order2_desc">DESC</string>
+	<string name="setting_view_view">View</string>
+	
+	<string name="setting_ui_theme">Theme</string>
+	<string name="setting_ui_theme_tip">The theme of user interface</string>
+	<string name="setting_ui_color">Color</string>
+	<string name="setting_ui_color_tip">The main color of user interface</string>
+	
+	<string name="setting_preferences">Preferences setting</string>
+	<string name="setting_preferences_home">Home directory</string>
+	<string name="setting_preferences_useen">Language</string>
+	<string name="setting_preferences_useen_on_tip">English</string>
+	<string name="setting_preferences_useen_off_tip">System default language</string>
+	
+	<string name="setting_about">About</string>
+	
+	<string name="setting_about_feedback">Feedback</string>
+
+</resources>
