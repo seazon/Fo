@@ -71,9 +71,8 @@ public class MainPreferencesActivity extends BasePreferenceActivity
             alert.show();
         } else if (preference.getKey().equals("setting_feedback")) {
             try {
-                Uri uri = Uri.parse("mailto:dxdroid@gmail.com");
-                Intent intent = new Intent(Intent.ACTION_SENDTO, uri);
-                intent.putExtra(Intent.EXTRA_SUBJECT, "About Fo");
+                Uri uri = Uri.parse("https://github.com/seazon/Fo");
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                 startActivity(intent);
             } catch (Exception e) {
                 LogUtils.error(e);

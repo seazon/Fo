@@ -62,7 +62,7 @@
         <Preference 
             android:key="setting_feedback"
             android:title="@string/setting_about_feedback"
-            android:summary="mailto:dxdroid@gmail.com"
+            android:summary="https://github.com/seazon/Fo"
         />
     </PreferenceCategory>
 </PreferenceScreen>
