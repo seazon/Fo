@@ -63,6 +63,11 @@
          -->
 
         <activity android:name=".activity.MainPreferencesActivity" />
+
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="3.0" />
+
     </application>
 
 </manifest>
