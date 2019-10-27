@@ -9,8 +9,8 @@ android {
         applicationId "com.seazon.fo"
         minSdkVersion 14
         targetSdkVersion 29
-        versionCode 47
-        versionName "1.8.9"
+        versionCode 48
+        versionName "1.8.10"
     }
     buildTypes {
         release {
