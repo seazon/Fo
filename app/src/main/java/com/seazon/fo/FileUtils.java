@@ -8,8 +8,12 @@ import java.io.FileOutputStream;
 import java.util.Stack;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
+import android.os.Build;
+
+import androidx.core.content.FileProvider;
 
 import com.seazon.fo.activity.CompressedFileListActivity;
 import com.seazon.fo.entity.Folder;
@@ -75,7 +79,8 @@ public class FileUtils {
 		} else {
 			try {
 				Intent intent = new Intent(Intent.ACTION_VIEW);
-				intent.setDataAndType(Uri.fromFile(file), type);
+				intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+				intent.setDataAndType(getUriForFile(context, file), type);
 				context.startActivity(intent);
 			} catch (Exception e) {
                 LogUtils.error(e);
@@ -84,9 +89,18 @@ public class FileUtils {
 		}
 	}
 
+	public static Uri getUriForFile(Context context, File file) {
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+			// "com.seazon.fo.android.fileprovider" config in manifest authorities
+			return FileProvider.getUriForFile(context, "com.seazon.fo.android.fileprovider", file);
+		} else {
+			return Uri.fromFile(file);
+		}
+	}
+
 	public static void openFileUnknow(File file, Activity context) {
 		Intent intent = new Intent(Intent.ACTION_VIEW);
-		intent.setDataAndType(Uri.fromFile(file), "*/*");
+		intent.setDataAndType(getUriForFile(context, file), "*/*");
 		context.startActivity(Intent.createChooser(intent, context
 				.getResources().getString(R.string.operator_open_with)));
 	}

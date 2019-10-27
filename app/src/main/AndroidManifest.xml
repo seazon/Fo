@@ -57,12 +57,17 @@
 
         <activity android:name=".activity.SearchActivity" />
 
-        <!--
-        android:windowSoftInputMode="stateHidden|adjustPan"
-        会导致键盘不消失，但是忘记为什么要加这个了
-         -->
-
         <activity android:name=".activity.MainPreferencesActivity" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.seazon.fo.android.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
 
         <meta-data
             android:name="android.max_aspect"
