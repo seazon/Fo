@@ -633,18 +633,18 @@ class FileListActivity : FoSlideActivity(), OnItemClickListener, OnItemLongClick
 
     }
 
-    override fun onOperationStart(operationType: Int, f: File, clipper: Clipper) {
+    override fun onOperationStart(operationType: Int, f: File?, clipper: Clipper) {
         when (operationType) {
             Core.OPERATION_TYPE_COPY -> {
 
-                val copyTask = CopyTask(core, f.path, clipper, this, this)
+                val copyTask = CopyTask(core, f?.path, clipper, this, this)
                 copyTask.execute()
                 this.dialog = ProgressDialog.show(this, null, resources.getString(R.string.copy_files), false, true
                 ) { copyTask.cancel(false) }
             }
 
             Core.OPERATION_TYPE_MOVE -> {
-                val moveTask = MoveTask(core, f.path, clipper, this, this)
+                val moveTask = MoveTask(core, f?.path, clipper, this, this)
                 moveTask.execute()
                 this.dialog = ProgressDialog.show(this, null, resources.getString(R.string.move_files), false, true
                 ) { moveTask.cancel(false) }
