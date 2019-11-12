@@ -673,13 +673,13 @@ class FileListActivity : FoSlideActivity(), OnItemClickListener, OnItemLongClick
         }
     }
 
-    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent) {
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         if (resultCode == return_code_nothing) {
 
         } else if (resultCode == return_code_local_path) {
-            render(data.getStringExtra("Path"))
+            render(data?.getStringExtra("Path"))
         } else if (resultCode == return_code_favourities) {
-            render(data.getStringExtra("Path"))
+            render(data?.getStringExtra("Path"))
         } else if (resultCode == return_code_exit) {
             finish()
         } else if (resultCode == return_paste) {
