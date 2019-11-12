@@ -19,6 +19,7 @@ import android.provider.MediaStore;
 import android.widget.Toast;
 
 import com.seazon.fo.Core;
+import com.seazon.fo.FileUtils;
 import com.seazon.fo.Helper;
 import com.seazon.fo.R;
 import com.seazon.fo.RefreshType;
@@ -50,7 +51,7 @@ public class SendMenu extends MultiFileAction {
 				if(type.startsWith("image/") || type.startsWith("audio/") || type.startsWith("video/")) {
 					new SingleMediaScanner(context, file);
 				} else {
-					shareSingleFile(file, Uri.fromFile(file));
+					shareSingleFile(context, file);
 				}
 			} else {
 				new MultiMediaScanner(context, core.getClipper().getCopys());
@@ -62,7 +63,11 @@ public class SendMenu extends MultiFileAction {
 			listener.onRefresh(true, Core.MODE_NORMAL, RefreshType.SELECT_RESET, true);
 		}
 	}
-	
+
+	public void shareSingleFile(Context context, File file) {
+		shareSingleFile(file, FileUtils.getUriForFile(context, file));
+	}
+
 	private void shareSingleFile(File file, Uri uri){
 		String type = Helper.getTypeByExtension(file.getName());
 		
@@ -94,11 +99,12 @@ public class SendMenu extends MultiFileAction {
 		@Override
 		public void onScanCompleted(String path, Uri uri) {
 			File file = new File(path);
-			if(uri==null)
-				uri = Uri.fromFile(file);
-			
-			shareSingleFile(file, uri);
-			
+			if (uri == null) {
+				shareSingleFile(context, file);
+			} else {
+				shareSingleFile(file, uri);
+			}
+
 			mMs.disconnect();
 		}
 	}

@@ -100,6 +100,7 @@ public class FileUtils {
 
 	public static void openFileUnknow(File file, Activity context) {
 		Intent intent = new Intent(Intent.ACTION_VIEW);
+		intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
 		intent.setDataAndType(getUriForFile(context, file), "*/*");
 		context.startActivity(Intent.createChooser(intent, context
 				.getResources().getString(R.string.operator_open_with)));
